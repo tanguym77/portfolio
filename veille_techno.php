@@ -1,6 +1,6 @@
 <?php
-    $_SESSION['id'] = 1;
-    $_SESSION['nom'] = "Acceuil";
+    $_SESSION['nom'] = "Veille technologique";
+    $_SESSION['id'] = 3;
     include 'vue/header.php';
     include 'vue/menu.php';
 ?>
@@ -10,7 +10,7 @@
         <!-- TITLE -->
         
             <div class="row text-white text-center pt-5"  >
-                <h1>Bienvenue sur mon portfolio</h1>
+                <h1>Ma veille technologique</h1>
             </div>
             
             <div class="row text-white p-5">
