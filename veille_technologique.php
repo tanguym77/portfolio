@@ -1,8 +1,5 @@
 <?php
-    $_SESSION['nom'] = "Veille technologique";
-    $_SESSION['id'] = 3;
     include 'vue/header.php';
-    include 'vue/menu.php';
 ?>
 
     <div class="container-fluid" style="background: url(images/background.jpg); background-size: cover; background-position: center; background-attachment: fixed;">
@@ -10,7 +7,7 @@
         <!-- TITLE -->
         
             <div class="row text-white text-center pt-5"  >
-                <h1>Ma veille technologique</h1>
+                <h1>Ma veillle technologique</h1>
             </div>
             
             <div class="row text-white p-5">
