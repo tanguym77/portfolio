@@ -10,11 +10,7 @@
                 <h1>Ma veillle technologique</h1>
             </div>
             
-            <div class="row text-white p-5">
-                <p>Bonjour et bienvenue sur mon Portfolio ! <br>
-                Je m'appelle Tanguy Marmier, j'ai 19 ans, et atuellement je suis étudiant en 1ère année de BTS Services Informatiques aux Organisation à l'institution St-Aspais de Melun. <br>
-                Je suis passionné d'informatique et je souhaite déveloper mes compétences en developpement front et back.</p>
-            </div>
+            
 
     <br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br>

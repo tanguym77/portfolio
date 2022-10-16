@@ -5,18 +5,18 @@
         <div class="mb-4">
             
             <!-- Instagram -->
-            <a class="btn" style="color: purple;" href="#!" role="button">
+            <a class="btn" style="color: purple;" href="https://www.instagram.com/_tanguym_/" target="_blank" role="button">
                 <i class="bi bi-instagram"></i>
             </a>
 
             
             <!-- Linkedin -->
-            <a class="btn" style="color: blue; border-radius: 100%;" href="#!" role="button">
+            <a class="btn" style="color: blue; border-radius: 100%;" href="https://www.linkedin.com/in/marmier-tanguy" target="_blank" role="button">
                 <i class="bi bi-linkedin"></i>
             </a>
 
             <!-- Github -->
-            <a class="btn" style="color: black;" href="#!" role="button">
+            <a class="btn" style="color: black;" href="https://github.com/tanguym77" target="_blank" role="button">
                 <i class="bi bi-github"></i>
             </a>
         </div>

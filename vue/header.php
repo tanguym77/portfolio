@@ -66,7 +66,7 @@
                     </li>
                     
                     <li class="nav-item mx-auto">
-                        <a class="nav-link" href="/contact.php">Contact</a>
+                        <a class="nav-link" href="contact.php?page=Contact">Contact</a>
                     </li>
                     
                 </ul>
