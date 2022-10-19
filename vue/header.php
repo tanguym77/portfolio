@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html class="h-100">
     <head>
 
         <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
@@ -31,7 +31,7 @@
     </head>
 
 <!-- BODY -->
-<body>
+<body class="h-100">
     <!-- LOADER ? -->
     
     <!-- NAVBAR -->

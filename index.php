@@ -3,7 +3,7 @@
 ?>
 
 <section>
-    <div class="container-fluid" loading="lazy" style="background: url(images/background.webp); background-size: cover; background-position: center; background-attachment: fixed;">
+    <div class="container-fluid" style="background: url(images/background.webp); background-size: cover; background-position: center; background-attachment: fixed;">
 
             <!-- TITLE ET PRESENTATION-->
             <div class="row text-white text-center pt-5">
@@ -39,7 +39,7 @@
             <!-- LE BTS SIO -->
             <div class="row text-white p-5 d-flex justify-content-around">
                 <!-- OPTION SLAM -->
-                <div class="col-md-5 border border-5 border-dark bg-dark rounded pt-1">
+                <div class="col-lg-5 mt-2 border border-5 border-dark bg-dark rounded pt-1">
                     <div class="p-3">
                         <h1>L'option SLAM</h1>
                         <p>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <!-- OPTION SISR -->
-                <div class="col-md-5 border border-5 border-dark bg-dark rounded pt-1">
+                <div class="col-lg-5 mt-2 border border-5 border-dark bg-dark rounded pt-1">
                     <div class="p-3">
                         <h1>L'option SISR</h1>
                         <p>
