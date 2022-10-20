@@ -46,8 +46,6 @@
                             ";
                         }
                     ?>
-                    
-                    
 
                     <!-- Submit button -->
                     <div class="d-grid">
