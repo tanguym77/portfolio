@@ -11,6 +11,8 @@
         <!-- BOOTSTRAP 5 -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
+        <!-- POPPER -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
 
         <!-- ICONS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -46,14 +48,14 @@
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
                     <li class="nav-item mx-auto">
-                        <a class="nav-link active h2" aria-current="page" href="index.php?page=Accueil">Accueil</a>
+                        <a class="nav-link active h2 text-nowrap" aria-current="page" href="index.php">Accueil</a>
                     </li>
 
                     <li class="nav-item dropdown mx-auto">
-                        <a class="nav-link dropdown-toggle text-center h2" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+                        <a class="nav-link dropdown-toggle text-center h2 text-nowrap" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown04">
-                        <li><a class="dropdown-item" href="competences.php?page=Compétences">Compétences</a></li>
-                        <li><a class="dropdown-item" href="projets.php?page=Projets">Projets</a></li>
+                        <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
+                        <li><a class="dropdown-item" href="projets.php">Projets</a></li>
                         <div class="dropdown-divider"></div>
                         <li><a class="dropdown-item" href="files/CV_Tanguy_MARMIER.pdf" target="_blank">Curriculum vitae</a></li>
                         <li><a class="dropdown-item" href="files/Lettre_motivation_Tanguy_MARMIER.pdf" target="_blank">Lettre de motivation</a></li>
@@ -61,17 +63,14 @@
                     </li>
 
                     <li class="nav-item mx-auto">
-                        <a class="nav-link h2" href="veille_technologique.php?page=Veille technologique">Veille technologique</a>
+                        <a class="nav-link h2 text-nowrap" href="veille_technologique.php">Veille technologique</a>
                     </li>
                     
                     <li class="nav-item mx-auto">
-                        <a class="nav-link h2" href="contact.php?page=Contact">Contact</a>
+                        <a class="nav-link h2 text-nowrap" href="contact.php">Contact</a>
                     </li>
                     
                 </ul>
             </div>
         </nav>
     </section>
-
-
-<?php //if($_GET['page'] == "Accueil"){echo "active";}else{echo " ";}?>
