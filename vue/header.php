@@ -5,15 +5,8 @@
 
         <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
 
-        <?php
-            // Title responsive
-            if(isset($_GET['page'])){
-                echo "<title>".$_GET['page']."</title>";
-            }else{
-                echo "<title>Accueil</title>";
-            }
-
-        ?>
+             <!-- Title -->
+            <title>Portfolio - Marmier Tanguy</title>
         
         <!-- BOOTSTRAP 5 -->
         <link rel="stylesheet" href="css/bootstrap.css">
