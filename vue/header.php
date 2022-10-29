@@ -8,9 +8,12 @@
              <!-- Title -->
             <title>Portfolio - Marmier Tanguy</title>
         
+        <!-- CSS PERSO -->
+        <link rel="stylesheet" href="css/style.css">
+
         <!-- BOOTSTRAP 5 -->
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/style.css">
+
         <!-- POPPER -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
 
@@ -24,8 +27,7 @@
         <!-- FONTAWESOME -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 
-        <!-- CSS PERSO -->
-        <script src="css/style.css"></script>
+        
 
     </head>
 
