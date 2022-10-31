@@ -37,6 +37,7 @@
     <div id="loading">
         <div class="load-circle"><span class="one"></span></div>
     </div>
+
     <!-- NAVBAR -->
     <section>
         <nav  class="navbar navbar-expand-md bg-dark navbar-dark" aria-label="Fourth navbar example">
@@ -60,7 +61,6 @@
                         <li><a class="dropdown-item" href="projets.php">Projets</a></li>
                         <div class="dropdown-divider"></div>
                         <li><a class="dropdown-item" href="files/CV_Tanguy_MARMIER.pdf" target="_blank">Curriculum vitae</a></li>
-                        <li><a class="dropdown-item" href="files/Lettre_motivation_Tanguy_MARMIER.pdf" target="_blank">Lettre de motivation</a></li>
                         </ul>
                     </li>
 
