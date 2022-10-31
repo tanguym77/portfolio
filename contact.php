@@ -14,23 +14,29 @@
                     <p class="mb-4 text-muted">Merci de remplir tout les champs</p>
                 </div>
 
-                <form action="mail.php" method="POST">
+                <form method="post" action="mail.php" >
 
                     <!-- NOM -->
                     <div class="form-floating mb-3">
-                        <input class="form-control" id="name" type="text" placeholder="Name" required />
-                        <label for="name">Name</label>
+                        <input name="name" class="form-control" id="name" type="text" placeholder="Name" required />
+                        <label for="name">Nom Prénom</label>
                     </div>
 
                     <!-- EMAIL -->
                     <div class="form-floating mb-3">
-                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" required />
-                    <label for="emailAddress">Email Address</label>
+                    <input name="email" class="form-control" id="emailAddress" type="email" placeholder="Email Address" required />
+                    <label for="emailAddress">Adresse Email</label>
+                    </div>
+
+                    <!-- Téléphone -->
+                    <div class="form-floating mb-3">
+                    <input name="phone" class="form-control" id="phone" type="tel" placeholder="Téléphone" />
+                    <label for="phone">Téléphone *</label>
                     </div>
 
                     <!-- MESSAGE -->
                     <div class="form-floating mb-3">
-                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
+                    <textarea name="message" class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
                     <label for="message">Message</label>
                     </div>
 
@@ -40,7 +46,7 @@
                             echo "
                             <div>
                                 <div class='text-center mb-3'>
-                                    <div class='fw-bolder'>Form submission successful!</div>
+                                    <div class='fw-bolder'>Merci ! Le message à bien été envoyé.</div>
                                 </div>
                             </div>
                             ";
