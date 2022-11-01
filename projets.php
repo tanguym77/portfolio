@@ -48,8 +48,8 @@
                         <div class="dropdown text-center">
                             <button class="btn btn-primary dropdown-toggle" type="button" id="Article1" data-bs-toggle="dropdown" aria-expanded="false">En savoir plus</button>
                             <ul class="dropdown-menu" aria-labelledby="Article1">
-                                <li><a class="dropdown-item" href="#">Le projet sur Github</a></li>
-                                <li><a class="dropdown-item" href="https://atelier-francais.alwaysdata.net/index.php" target="_blank">Le site</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/Le-trio-malefique/Projet_note_de_frais" target="_blank">Le projet sur Github</a></li>
+                                <li><a class="dropdown-item disabled" target="_blank">Le site</a></li>
                             </ul>
                         </div>
                     </div>
