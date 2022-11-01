@@ -40,7 +40,15 @@
                 </div>
                 <div class="col-12 p-2 mt-2 border-top">
                     <p>Mon sujet de veille technologique est la réalité virtuelle</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, cupiditate quo ea similique eaque exercitationem harum totam, ratione ipsa aut nam, maiores est architecto? Sequi distinctio doloremque repellendus aut nihil!</p>
+                    <p>La réalité virtuelle est une technologie qui connait un très fort essors aux cours de ces dernières années. Cela est du aux
+                        nouvelles découvertes technologique et à l'arrivé du metaverse.
+                    </p>
+                    <p>Afin de comprendre au mieux cette technologie j'ai moi même décidé de me procurer un Oculus Quest 2 pour tester les dernières nouveautés (comme le suivis des mains ou la réalité mixte).
+                       Au cours de mon expérience j'ai découvert que la réalité virtuelle offrait de grandes possibilités autant pour les entreprise que pour les jeux vidéo.
+                    </p>
+                    <p>
+                       Mais que cette technologie a encore beaucoup de chemin a parcourir, en effet il est possible pour certaines personnes (dont moi) de ressentir le "Motion Sickness" une sensation de nausé qui peut survenir lorsqu'on se déplace en vr.
+                    </p>
                 </div>
             </div>
         </div>

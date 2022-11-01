@@ -10,7 +10,7 @@
         </div>
 
         <!-- CARD -->
-        <div class="row row-cols-1 row-cols-md-2 g-4 p-3">
+        <div class="row w-100 mx-auto row-cols-1 row-cols-md-2 g-4 p-3">
             
             <!-- MOOC ANSSI -->
             <div class="col">
@@ -24,7 +24,7 @@
                     </div>
                     <div class="card-footer">
                         <div class="dropdown text-center">
-                            <a class="btn btn-primary" href="files/certifications/MOOC_ANSSI.pdf" target="_blank">Visualiser la certification</a>
+                            <a class="btn btn-primary" href="files/certifications/MOOC_ANSSI.pdf" target="_blank">La certification</a>
                         </div>
                     </div>
                 </div>
@@ -38,11 +38,11 @@
                     </div>
                     <img src="images/certifications/logo_php.png" class="card-img-top">
                     <div class="card-body">
-                        <p class="card-text">Initiation aux principes de la cybersécurité et approfondir ses connaissances pour agir efficacement sur la protection de nos outils numériques.</p>
+                        <p class="card-text">Se former aux essentiels de php et approfondir ses connaissances</p>
                     </div>
                     <div class="card-footer">
                         <div class="dropdown text-center">
-                            <a class="btn btn-primary" href="files/certifications/MOOC_ANSSI.pdf" target="_blank">Visualiser la certification</a>
+                            <a class="btn btn-primary" href="files/certifications/Certification_PHP.PNG" target="_blank">La certification</a>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                     </div>
                     <div class="card-footer">
                         <div class="dropdown text-center">
-                            <a class="btn btn-primary" href="files/certifications/TANGUYMARMIER-API-certificate.pdf" target="_blank">Visualiser la certification</a>
+                            <a class="btn btn-primary" href="files/certifications/TANGUYMARMIER-API-certificate.pdf" target="_blank">La certification</a>
                         </div>
                     </div>
                 </div>
