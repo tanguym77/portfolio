@@ -12,7 +12,7 @@
         <!-- Présentation -->
         <div class="row w-100 mx-auto text-center d-flex justify-content-center pt-5">
             <div class="col-md-10 border rounded text-white bg-dark p-3">
-                <b>Bonjour je m'appelle Tanguy Marmier, je suis en 2e année de BTS SIO option SLAM et recherche activement à la recherche d'un stage du 2 javier au 3 février 2023.</b>
+                <b>Bonjour je m'appelle Tanguy Marmier, je suis en 2ème année de BTS SIO option SLAM et je recherche activement une entreprise de développement pour effectuer un stage du 2 janvier au 3 février 2023.</b>
             </div>
         </div>
 
