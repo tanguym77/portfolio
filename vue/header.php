@@ -24,11 +24,6 @@
         <script src="js/bootstrap.js"></script>
         <script src="js/script.js"></script>
 
-        <!-- FONTAWESOME -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-
-        
-
     </head>
 
 <!-- BODY -->
@@ -57,7 +52,7 @@
 
                     <!-- PROFIL -->
                     <li class="nav-item dropdown mx-auto">
-                        <a class="nav-link dropdown-toggle text-center h2 text-nowrap" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+                        <a class="nav-link dropdown-toggle text-center h2 text-nowrap" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown04">
                         <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
                         <li><a class="dropdown-item" href="projets.php">Projets</a></li>

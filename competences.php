@@ -34,11 +34,11 @@
             <div class="col">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="card-title">PHP Openclassroom</h5>
+                        <h5 class="card-title">PHP & MySQL Openclassroom</h5>
                     </div>
                     <img src="images/certifications/logo_php.png" class="card-img-top">
                     <div class="card-body">
-                        <p class="card-text">Se former aux essentiels de php et approfondir ses connaissances</p>
+                        <p class="card-text">Se former aux essentiels de PHP et MySQL.</p>
                     </div>
                     <div class="card-footer">
                         <div class="dropdown text-center">

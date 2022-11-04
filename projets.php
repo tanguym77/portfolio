@@ -19,8 +19,8 @@
                     </div>
                     <img src="images/projets/AF.png" class="card-img-top">
                     <div class="card-body">
-                        <p class="card-text">Un projet de création d'entreprise en 1e année de bts sio. L'objectif étant de monter un site marchand et d'établir son business plan, j'ai pu être le pdg de cette entreprise qui a remporté le concours.</p>
-                        
+                        <p class="card-text">Un projet de création d'entreprise en 1e année de bts sio.</p>
+                        <p class="card-text">L'objectif étant de monter un site marchand et d'établir son business plan, j'ai pu être le pdg de cette entreprise qui a remporté le concours.</p>
                     </div>
                     <div class="card-footer">
                         <div class="dropdown text-center">

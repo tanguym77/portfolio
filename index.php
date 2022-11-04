@@ -12,7 +12,7 @@
         <!-- Présentation -->
         <div class="row w-100 mx-auto text-center d-flex justify-content-center pt-5">
             <div class="col-md-10 border rounded text-white bg-dark p-3">
-                Bonjour je m'appelle Tanguy Marmier, je suis en 2e année de BTS SIO option SLAM et recherche activement à la recherche d'un stage du 2 javier au 3 février 2023.
+                <b>Bonjour je m'appelle Tanguy Marmier, je suis en 2e année de BTS SIO option SLAM et recherche activement à la recherche d'un stage du 2 javier au 3 février 2023.</b>
             </div>
         </div>
 
@@ -21,7 +21,7 @@
                 <div class="col-md-10 border rounded text-white bg-dark">
                     <div class="p-3">
                         <h1>Le BTS SIO</h1>
-                        <p>Le brevet de technicien supérieur Services informatiques aux organisations est un cursus d'études se déroulant sur deux ans dans des lycées français, des écoles privées ou dans des centres de formation professionnelle. Il peut être préparé en formation continue, en alternance ou en formation initiale.</p>
+                        <p>Le brevet de technicien supérieur Services informatiques aux organisations est un cursus d'études se déroulant sur deux ans. Il peut être préparé en formation continue, en alternance ou en formation initiale.</p>
                         <p>Dès le deuxième semestre de la première année, une option doit être choisie par l'étudiant entre :</p>
                         <li>Solutions Logicielles et Applications Métier (SLAM)</li>
                         <li>Solutions d’Infrastructure, Systèmes et Réseaux (SISR)</li>

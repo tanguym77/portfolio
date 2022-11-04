@@ -23,7 +23,7 @@
                         <p> Quels sont les outils de la veille technologique ? </p>
                     </div>
                     <div class="col-7">
-                        <p> Différents outils peuvent être utilisé pour faire une veille technologique. J'ai choisi l'outil Feedly, un aggrégateur de flux RSS en ligne qui me permet de me tenir a jour en m'abonnant à des thèmes et journeaux. </p>
+                        <p> Différents outils peuvent être utilisés pour faire une veille technologique. J'ai choisi l'outil Feedly, un aggrégateur de flux RSS en ligne qui me permet de me tenir à jour en m'abonnant à des thèmes et journaux. </p>
                         <p><img src="images/Feedly-logo.png" class="rounded-circle" style="max-width: 50px; max-height: 50px;"> <a class="text-white" href="https://feedly.com" target="_blank">Feedly</a></p>
                     </div>
                 </div>
@@ -39,15 +39,15 @@
                     <h3> La réalité virtuelle </h3>
                 </div>
                 <div class="col-12 p-2 mt-2 border-top">
-                    <p>Mon sujet de veille technologique est la réalité virtuelle</p>
-                    <p>La réalité virtuelle est une technologie qui connait un très fort essors aux cours de ces dernières années. Cela est du aux
-                        nouvelles découvertes technologique et à l'arrivé du metaverse.
+                    <p>Mon sujet de veille technologique est la réalité virtuelle.</p>
+                    <p>La réalité virtuelle est une technologie qui connait un très fort essor au cours de ces dernières années. Cela est dû aux
+                        nouvelles découvertes technologiques et à l'arrivée du metaverse de Meta (Facebook).
                     </p>
-                    <p>Afin de comprendre au mieux cette technologie j'ai moi même décidé de me procurer un Oculus Quest 2 pour tester les dernières nouveautés (comme le suivis des mains ou la réalité mixte).
-                       Au cours de mon expérience j'ai découvert que la réalité virtuelle offrait de grandes possibilités autant pour les entreprise que pour les jeux vidéo.
+                    <p>Afin de comprendre au mieux cette technologie j'ai moi même décidé de me procurer un Oculus Quest 2 pour tester les dernières nouveautés (comme le suivi des mains ou la réalité mixte).
+                       Au cours de mon expérience j'ai découvert que la réalité virtuelle offrait de grandes possibilités autant pour les entreprises que pour les jeux vidéo.
                     </p>
                     <p>
-                       Mais que cette technologie a encore beaucoup de chemin a parcourir, en effet il est possible pour certaines personnes (dont moi) de ressentir le "Motion Sickness" une sensation de nausé qui peut survenir lorsqu'on se déplace en vr.
+                       Mais que cette technologie a encore beaucoup de chemin à parcourir, en effet il est possible pour certaines personnes (moi y compris) de ressentir le "Motion Sickness" une sensation de nausée qui peut survenir lorsqu'on se déplace en vr.
                     </p>
                 </div>
             </div>

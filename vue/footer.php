@@ -2,21 +2,24 @@
   
     <!-- MEDIA -->
     <div class="container p-4 pb-0">
+        <div class="text-center mb-4">
+            Mes réseaux :
+        </div>
         <div class="mb-4">
             
             <!-- Instagram -->
-            <a class="btn" style="color: purple;" href="https://www.instagram.com/_tanguym_/" target="_blank" role="button">
+            <a class="btn border rounded bg-danger me-5" style="color: white;" href="https://www.instagram.com/_tanguym_/" target="_blank" role="button">
                 <i class="bi bi-instagram"></i>
             </a>
 
             
             <!-- Linkedin -->
-            <a class="btn" style="color: blue; border-radius: 100%;" href="https://www.linkedin.com/in/marmier-tanguy" target="_blank" role="button">
+            <a class="btn border rounded bg-info" style="color: white;" href="https://www.linkedin.com/in/marmier-tanguy" target="_blank" role="button">
                 <i class="bi bi-linkedin"></i>
             </a>
 
             <!-- Github -->
-            <a class="btn" style="color: black;" href="https://github.com/tanguym77" target="_blank" role="button">
+            <a class="btn border rounded bg-secondary ms-5" style="color: white;" href="https://github.com/tanguym77" target="_blank" role="button">
                 <i class="bi bi-github"></i>
             </a>
         </div>
