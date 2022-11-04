@@ -47,12 +47,12 @@
                     
                     <!-- ACCUEIL -->
                     <li class="nav-item mx-auto">
-                        <a class="nav-link active h2 text-nowrap" aria-current="page" href="index.php">Accueil</a>
+                        <a class="nav-link active h4 text-nowrap" aria-current="page" href="index.php">Accueil</a>
                     </li>
 
                     <!-- PROFIL -->
                     <li class="nav-item dropdown mx-auto">
-                        <a class="nav-link dropdown-toggle text-center h2 text-nowrap" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+                        <a class="nav-link dropdown-toggle text-center h4 text-nowrap" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown04">
                         <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
                         <li><a class="dropdown-item" href="projets.php">Projets</a></li>
@@ -61,20 +61,18 @@
                         </ul>
                     </li>
                     
-                    <!-- Mes services
                     <li class="nav-item mx-auto">
-                        <a class="nav-link h2 text-nowrap" href="services.php">Services</a>
+                        <a class="nav-link h4 text-nowrap" href="services.php">Services</a>
                     </li>
-                    -->
 
                     <!-- VEILLE TECHNO -->
                     <li class="nav-item mx-auto">
-                        <a class="nav-link h2 text-nowrap" href="veille_technologique.php">Veille technologique</a>
+                        <a class="nav-link h4 text-nowrap" href="veille_technologique.php">Veille technologique</a>
                     </li>
                     
                     <!-- CONTACT -->
                     <li class="nav-item mx-auto">
-                        <a class="nav-link h2 text-nowrap" href="contact.php">Contact</a>
+                        <a class="nav-link h4 text-nowrap" href="contact.php">Contact</a>
                     </li>
                     
                 </ul>

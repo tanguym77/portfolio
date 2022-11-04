@@ -15,7 +15,7 @@
                 <p> Bonjour ! Cette page n'est pas encore disponible &#x1F615; </p>
                 <p> Suite à la création de ma micro entreprise de Conseil en systèmes et logiciels informatiques, je proposerais ici mes services</p>
                 <p> Pour tout renseignement n'hésitez pas à m'envoyer un message <a href="contact.php">ici</a> ou sur mes réseaux. </p>
-                <p><a class="text-white btn btn-primary" href="https://www.societe.com/etablissement/tm-conseil-91955336200014.html" target="_blank">TM Conseil</a></p>
+                <p><a class="text-white btn btn-primary" href="https://www.societe.com/etablissement/tm-conseil-91955336200014.html" target="_blank">TM Conseil</a>&nbsp (société.com)</p>
             </div>
         </div>
 
