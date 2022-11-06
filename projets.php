@@ -15,7 +15,7 @@
                 <!-- SERIOUS GAME -->
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="card-title">Serious Game</h5>
+                        <h5 class="card-title">Serious Game (projet de 1ère année)</h5>
                     </div>
                     <img src="images/projets/AF.png" class="card-img-top">
                     <div class="card-body">
@@ -38,7 +38,7 @@
             <div class="col">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="card-title">Gestion des notes de frais de l'institution st aspais</h5>
+                        <h5 class="card-title">Gestion des notes de frais de l'Institution Saint-Aspais (projet de 2e année)</h5>
                     </div>
                     <img src="images/projets/note_de_frais.jpg" class="card-img-top">
                     <div class="card-body">
