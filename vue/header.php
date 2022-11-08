@@ -7,6 +7,8 @@
 
              <!-- Title -->
             <title>Portfolio - Marmier Tanguy</title>
+            <!-- ICON -->
+            <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
         
         <!-- CSS PERSO -->
         <link rel="stylesheet" href="css/style.css">
