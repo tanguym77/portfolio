@@ -11,7 +11,7 @@
                 <div class="col-sm-12 p-4">
                 <div class="text-center">
                     <div class="h3 fw-light">Formulaire de contact</div>
-                    <p class="mb-4 text-muted">Merci de remplir tout les champs</p>
+                    <p class="mb-4 text-muted">Merci de remplir correctement les champs</p>
                 </div>
 
                 <form method="post" action="mail.php" >
@@ -31,7 +31,7 @@
                     <!-- Téléphone -->
                     <div class="form-floating mb-3">
                     <input name="phone" class="form-control" id="phone" type="tel" placeholder="Téléphone" />
-                    <label for="phone">Téléphone *</label>
+                    <label for="phone">Téléphone *(facultatif)</label>
                     </div>
 
                     <!-- MESSAGE -->
@@ -46,7 +46,7 @@
                             echo "
                             <div>
                                 <div class='text-center mb-3'>
-                                    <div class='fw-bolder'>Merci ! Le message à bien été envoyé.</div>
+                                    <div class='fw-bolder bg-success rounded p-1 text-white'>Merci ! Le message à bien été envoyé.</div>
                                 </div>
                             </div>
                             ";
