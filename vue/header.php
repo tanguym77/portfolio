@@ -60,7 +60,7 @@
                         <li><a class="dropdown-item" href="projets.php">Projets</a></li>
                         <div class="dropdown-divider"></div>
                         <li><a class="dropdown-item" href="stages.php">Stages</a></li>
-                        <li><a class="dropdown-item" href="files/CV_Tanguy_MARMIER.pdf" target="_blank">Curriculum vitae</a></li>
+                        <li><a class="dropdown-item" href="files/CV_Marmier_Tanguy.pdf" target="_blank">Curriculum vitae</a></li>
                         </ul>
                     </li>
                     
