@@ -37,7 +37,7 @@
 
     <!-- NAVBAR -->
     <section class="h-25 bg-dark">
-        <nav  class="navbar navbar-expand-md bg-dark navbar-dark" aria-label="Fourth navbar example">
+        <nav  class="navbar navbar-expand-md bg-dark navbar-dark" aria-label="Fourth navbar example" style="z-index:3">
             <img src="images/logo.webp" alt="Logo TM" style="width : 180px;">
 
             <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
