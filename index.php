@@ -2,8 +2,72 @@
     include 'vue/header.php';
 ?>
 
+<!-- ANIMATION -->
+<section class="h-75 m-0" style="height: 80vh">
+    <div class="animation m-0">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="custom-shape-divider-top-1675847111">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+</section>
+
+
+
+<!-- BODY -->
 <section style="background: url(images/background.webp); background-size: cover; background-position: center; background-attachment: fixed;">
-    <div>
+    <div class="h-100">
         <!-- TITLE -->
         <div class="row w-100 mx-auto text-white text-center pt-5 m-0">
             <h1>Bienvenue sur mon portfolio</h1>
@@ -12,7 +76,7 @@
         <!-- Présentation -->
         <div class="row w-100 mx-auto text-center d-flex justify-content-center pt-5">
             <div class="col-md-10 border rounded text-white bg-dark p-3">
-                <b>Bonjour je m'appelle Tanguy Marmier, je suis en 2ème année de BTS SIO option SLAM et je recherche activement une entreprise de développement pour effectuer un stage du 2 janvier au 3 février 2023.</b>
+                <b>je m'appelle Tanguy Marmier, je suis en 2ème année de BTS SIO option SLAM et je recherche activement une alternance pour Janvier 2023.</b>
             </div>
         </div>
 
@@ -34,7 +98,7 @@
         <div class="row w-100 mx-auto mt-3 d-flex justify-content-center pb-5">
             <div class="col-md-5 border rounded text-white bg-dark mt-3 me-md-3">
                 <div class="p-3">
-                    <h1 class="border-bottom">L'option SLAM</h1>
+                    <h1 class="border-bottom pb-1">L'option SLAM</h1>
                     <p>
                         L'option Solutions logicielles et applications métier (SLAM)<br>
                         Le titulaire du diplôme participe à la production et à la fourniture de services en développant,
@@ -52,7 +116,7 @@
             </div>
             <div class="col-md-5 border rounded text-white bg-dark mt-3">
                 <div class="p-3">
-                    <h1 class="border-bottom">L'option SISR</h1>
+                    <h1 class="border-bottom pb-1">L'option SISR</h1>
                     <p>
                         L'option Solutions d’infrastructure, systèmes et réseaux (SISR)<br>
                         Le titulaire du diplôme participe à la production et à la fourniture de services en réalisant ou en adaptant des solutions d’infrastructure et en assurant le fonctionnement optimal des équipements.<br>

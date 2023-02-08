@@ -55,7 +55,7 @@
 
         <!-- CAROUSEL -->
         <div class="row m-md-5 m-0 justify-content-center border-5">
-            <div class="col-10">
+            <div class="col-md-6">
                 <div id="carousel" class="carousel carousel-dark slide border rounded" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

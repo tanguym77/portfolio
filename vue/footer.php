@@ -3,7 +3,7 @@
     <!-- MEDIA -->
     <div class="container p-4 pb-0">
         <div class="text-center mb-4">
-            Mes réseaux :
+            <p> Mes réseaux : </p>
         </div>
         <div class="mb-4">
             
@@ -14,12 +14,12 @@
 
             
             <!-- Linkedin -->
-            <a class="btn border rounded bg-info" style="color: white;" href="https://www.linkedin.com/in/marmier-tanguy" target="_blank" role="button">
+            <a class="btn border rounded bg-primary" style="color: white;" href="https://www.linkedin.com/in/marmier-tanguy" target="_blank" role="button">
                 <i class="bi bi-linkedin"></i>
             </a>
 
             <!-- Github -->
-            <a class="btn border rounded bg-secondary ms-5" style="color: white;" href="https://github.com/tanguym77" target="_blank" role="button">
+            <a class="btn border rounded bg-dark ms-5" style="color: white;" href="https://github.com/tanguym77" target="_blank" role="button">
                 <i class="bi bi-github"></i>
             </a>
         </div>
@@ -27,7 +27,7 @@
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2022 Copyright :
+        © 2023 Copyright :
         <a class="text-white" href="">Tanguy Marmier</a>
     </div>
 </footer>

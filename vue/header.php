@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html class="h-100">
+<html class="h-100 w-100">
     <head>
 
         <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
@@ -23,20 +23,20 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
         <!-- JAVASCRIPT -->
-        <script src="js/bootstrap.js"></script>
-        <script src="js/script.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
 
     </head>
 
 <!-- BODY -->
-<body class="h-100">
+<body class="h-100 w-100">
     <!-- LOADER ? -->
     <div id="loading">
         <div class="load-circle"><span class="one"></span></div>
     </div>
 
     <!-- NAVBAR -->
-    <section>
+    <section class="h-25 bg-dark">
         <nav  class="navbar navbar-expand-md bg-dark navbar-dark" aria-label="Fourth navbar example">
             <img src="images/logo.webp" alt="Logo TM" style="width : 180px;">
 

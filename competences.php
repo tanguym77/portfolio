@@ -10,7 +10,7 @@
         </div>
 
         <!-- CARD -->
-        <div class="row w-100 mx-auto row-cols-1 row-cols-md-2 g-4 p-3">
+        <div class="row w-75 mx-auto row-cols-1 row-cols-md-2 g-4 p-3">
             
             <!-- MOOC ANSSI -->
             <div class="col">
@@ -38,7 +38,7 @@
                     </div>
                     <img src="images/certifications/logo_php.png" class="card-img-top">
                     <div class="card-body">
-                        <p class="card-text">Se former aux essentiels de PHP et MySQL.</p>
+                        <p class="card-text">Se former aux essentiels de PHP et MySQL.<br><br><br></p>
                     </div>
                     <div class="card-footer">
                         <div class="dropdown text-center">
