@@ -1,33 +1,107 @@
-<?php
-    include 'vue/header.php';
-?>
 
+<!DOCTYPE html>
+<html class="h-100 w-100">
+    <head>
+
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+
+             <!-- Title -->
+            <title>Portfolio - Marmier Tanguy</title>
+            <!-- ICON -->
+            <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+        
+        <!-- CSS PERSO -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- BOOTSTRAP 5 -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+        <!-- POPPER -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+
+        <!-- ICONS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+        <!-- JAVASCRIPT -->
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+
+    </head>
+
+<!-- BODY -->
+<body class="h-100 w-100" style="background-color: black">
+
+    <!-- LOADER ? -->
+    <div id="loading">
+        <div class="load-circle"><span class="one"></span></div>
+    </div>
+
+    <!-- NAVBAR -->
 <!-- ANIMATION -->
-<section class="h-75 m-0" style="z-index:2;">
-    <div class="animation">
+<section class="m-0" style="z-index:1;height:140vh">
+    <div class="animation h-100" style="z-index:1; position:relative;">
         <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        
+        <nav  class="navbar navbar-expand-md navbar-dark" aria-label="Fourth navbar example" style="z-index:3">
+            <img src="images/logo.webp" alt="Logo TM" style="width : 180px;">
+
+            <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="navbar-toggler-icon"></div>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav me-auto border border-dark bg-dark rounded mb-2 mb-md-0">
+                    
+                    <!-- ACCUEIL -->
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link active h4 text-nowrap" aria-current="page" href="index.php">Accueil</a>
+                    </li>
+
+                    <!-- PROFIL -->
+                    <li class="nav-item d-flex  dropdown mx-auto">
+                        <a class="nav-link dropdown-toggle text-center h4 text-nowrap" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                        <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
+                        <li><a class="dropdown-item" href="projets.php">Projets</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item" href="stages.php">Stages</a></li>
+                        <li><a class="dropdown-item" href="files/CV_Marmier_Tanguy.pdf" target="_blank">Curriculum vitae</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link h4 text-nowrap" href="services.php">Services</a>
+                    </li>
+
+                    <!-- VEILLE TECHNO -->
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link h4 text-nowrap" href="veille_technologique.php">Veille technologique</a>
+                    </li>
+                    
+                    <!-- CONTACT -->
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link h4 text-nowrap" href="contact.php">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+    <!-- TITLE -->
+    <div class="d-flex align-items-center justify-content-center text-center text-white" style="position:absolute; top:0; left:0; right:0; bottom:0">
+        <h1>Bienvenue sur mon portfolio</h1>
+    </div>
+        
     </div>
 </section>
 
-
-
 <!-- BODY -->
-<section style="background: url(images/background.webp); background-size: cover; background-position: center; background-attachment: fixed;">
-    <div class="h-100">
-        <!-- TITLE -->
-        <div class="row w-100 mx-auto text-white text-center pt-5 m-0">
-            <h1>Bienvenue sur mon portfolio</h1>
-        </div>
-
-        <!-- Présentation -->
-        <div class="row w-100 mx-auto text-center d-flex justify-content-center pt-5">
-            <div class="col-md-10 border rounded text-white bg-dark p-3">
-                <b>je m'appelle Tanguy Marmier, je suis en 2ème année de BTS SIO option SLAM et je recherche activement une alternance pour Janvier 2023.</b>
-            </div>
-        </div>
+<section style="background: url(images/background-couper.png); background-size: cover; background-position: center; z-index:2; position:relative; top:-50vh">
+    
+    <div class="h-100" style="position: relative; top:45vh">
 
         <!-- LE BTS SIO -->
-        <div class="row w-100 mx-auto mt-3 d-flex justify-content-center pt-5">
+        <div class="row w-100 mx-auto mt-5 d-flex justify-content-center pt-5">
                 <div class="col-md-10 border rounded text-white bg-dark">
                     <div class="p-3">
                         <h1>Le BTS SIO</h1>
