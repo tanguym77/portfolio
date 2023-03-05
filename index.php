@@ -102,9 +102,9 @@
 
         <!-- ANNONCE -->
         <div class="row w-100 mx-auto mt-5 d-flex justify-content-center pt-5">
-                <div class="col-md-10 border rounded text-white bg-dark p-2">
+                <div class="col-md-5 border rounded text-white bg-dark p-2 text-center">
                     <p>Je suis activement à la recherche d'une entreprise pour effectuer une alternance à partir de Septembre 2023</p>
-                    <p class="text-center">Vous pouvez me contacter <a href="contact.php">ici</a></p>
+                    <p>Vous pouvez me contacter <a href="contact.php">ici</a></p>
                 </div>
         </div>
 
