@@ -50,7 +50,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav me-auto border border-dark bg-dark rounded mb-2 mb-md-0">
+                <ul class="navbar-nav me-auto rounded mb-2 mb-md-0">
                     
                     <!-- ACCUEIL -->
                     <li class="nav-item mx-auto">
@@ -69,9 +69,9 @@
                         </ul>
                     </li>
                     
-                    <li class="nav-item mx-auto">
+                    <!-- <li class="nav-item mx-auto">
                         <a class="nav-link h4 text-nowrap" href="services.php">Services</a>
-                    </li>
+                    </li> -->
 
                     <!-- VEILLE TECHNO -->
                     <li class="nav-item mx-auto">
@@ -99,6 +99,14 @@
 <section style="background: url(images/background-couper.png); background-size: cover; background-position: center; z-index:2; position:relative; top:-50vh">
     
     <div class="h-100" style="position: relative; top:45vh">
+
+        <!-- ANNONCE -->
+        <div class="row w-100 mx-auto mt-5 d-flex justify-content-center pt-5">
+                <div class="col-md-10 border rounded text-white bg-dark p-2">
+                    <p>Je suis activement à la recherche d'une entreprise pour effectuer une alternance à partir de Septembre 2023</p>
+                    <p class="text-center">Vous pouvez me contacter <a href="contact.php">ici</a></p>
+                </div>
+        </div>
 
         <!-- LE BTS SIO -->
         <div class="row w-100 mx-auto mt-5 d-flex justify-content-center pt-5">

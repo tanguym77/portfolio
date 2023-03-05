@@ -36,7 +36,7 @@
     </div>
 
     <!-- NAVBAR -->
-    <section class="h-25 bg-dark">
+    <section class="bg-dark" style="height: 15%">
         <nav  class="navbar navbar-expand-md bg-dark navbar-dark" aria-label="Fourth navbar example" style="z-index:3">
             <img src="images/logo.webp" alt="Logo TM" style="width : 180px;">
 
@@ -64,9 +64,9 @@
                         </ul>
                     </li>
                     
-                    <li class="nav-item mx-auto">
+                    <!-- <li class="nav-item mx-auto">
                         <a class="nav-link h4 text-nowrap" href="services.php">Services</a>
-                    </li>
+                    </li> -->
 
                     <!-- VEILLE TECHNO -->
                     <li class="nav-item mx-auto">
