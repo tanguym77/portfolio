@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html class="h-100 w-100">
+<html class="h-100">
     <head>
 
         <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
@@ -14,7 +13,11 @@
         <link rel="stylesheet" href="css/style.css">
 
         <!-- BOOTSTRAP 5 -->
-        <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+        <!-- ANIMATIONS -->
+        <link rel="stylesheet" href="css/animations.css">
 
         <!-- POPPER -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
@@ -23,140 +26,157 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
         <!-- JAVASCRIPT -->
-        <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
 
     </head>
 
-<!-- BODY -->
-<body class="h-100 w-100" style="background-color: black">
+    <!-- PAGE -->
+    <body class="h-100">
 
-    <!-- LOADER ? -->
-    <div id="loading">
-        <div class="load-circle"><span class="one"></span></div>
-    </div>
-
-    <!-- NAVBAR -->
-<!-- ANIMATION -->
-<section class="m-0" style="z-index:1;height:140vh">
-    <div class="animation h-100" style="z-index:1; position:relative;">
-        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-        
-        <nav  class="navbar navbar-expand-md navbar-dark" aria-label="Fourth navbar example" style="z-index:3">
-            <img src="images/logo.webp" alt="Logo TM" style="width : 180px;">
-
-            <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="navbar-toggler-icon"></div>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav me-auto border border-dark bg-dark rounded mb-2 mb-md-0">
-                    
-                    <!-- ACCUEIL -->
-                    <li class="nav-item mx-auto">
-                        <a class="nav-link active h4 text-nowrap" aria-current="page" href="index.php">Accueil</a>
-                    </li>
-
-                    <!-- PROFIL -->
-                    <li class="nav-item d-flex  dropdown mx-auto">
-                        <a class="nav-link dropdown-toggle text-center h4 text-nowrap" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown04">
-                        <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
-                        <li><a class="dropdown-item" href="projets.php">Projets</a></li>
-                        <div class="dropdown-divider"></div>
-                        <li><a class="dropdown-item" href="stages.php">Stages</a></li>
-                        <li><a class="dropdown-item" href="files/CV_Marmier_Tanguy.pdf" target="_blank">Curriculum vitae</a></li>
-                        </ul>
-                    </li>
-                    
-                    <li class="nav-item mx-auto">
-                        <a class="nav-link h4 text-nowrap" href="services.php">Services</a>
-                    </li>
-
-                    <!-- VEILLE TECHNO -->
-                    <li class="nav-item mx-auto">
-                        <a class="nav-link h4 text-nowrap" href="veille_technologique.php">Veille technologique</a>
-                    </li>
-                    
-                    <!-- CONTACT -->
-                    <li class="nav-item mx-auto">
-                        <a class="nav-link h4 text-nowrap" href="contact.php">Contact</a>
-                    </li>
-                    
-                </ul>
+        <section class="h-100 background">
+            <div class="animation">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </nav>
+            
 
-    <!-- TITLE -->
-    <div class="d-flex align-items-center justify-content-center text-center text-white" style="position:absolute; top:0; left:0; right:0; bottom:0">
-        <h1>Bienvenue sur mon portfolio</h1>
-    </div>
-        
-    </div>
-</section>
+            <!-- NAVBAR -->
+            <section style="height:10vh; position: relative; z-index: 2;">
+                <div class="row m-0 h-100 text-white d-flex align-items-center">
+                    
+                <nav class="navbar navbar-dark">
+                    <div class="container-fluid">
+                        <!-- TITRE -->
+                        <a class="navbar-brand" href="#"><img src="images/logo.webp" alt="logo" style="height: 50px; weight: 40px"> Tanguy Marmier</a>
 
-<!-- BODY -->
-<section style="background: url(images/background-couper.png); background-size: cover; background-position: center; z-index:2; position:relative; top:-50vh">
-    
-    <div class="h-100" style="position: relative; top:45vh">
+                        <!-- NAV MENU PC -->
+                        <div class="d-flex justify-content-evenly">
+                        <a class="nav-link d-none d-md-block p-2"  href="index.php">Accueil</a>
+                        <a class="nav-link d-none d-md-block p-2" href="bts-sio.php">Etudes</a>
+                        <li class="nav-item dropdown list-unstyled d-none d-md-block p-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Profil
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
+                                <li><a class="dropdown-item" href="projets.php">Projets</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="stages.php">Stages</a></li>
+                                <li><a class="dropdown-item" href="files/CV_Marmier_Tanguy.pdf" target="_blank">Curriculum vitae</a></li>
+                            </ul>
+                        </li>
+                        <a class="nav-link d-none d-md-block p-2" href="services.php">Services</a>
+                        <a class="nav-link d-none d-md-block p-2" href="veille_technologique.php">Veille technologique</a>
+                        <a class="nav-link d-none d-md-block p-2" href="contact.php">Contact</a>   
+                        </div>
 
-        <!-- LE BTS SIO -->
-        <div class="row w-100 mx-auto mt-5 d-flex justify-content-center pt-5">
-                <div class="col-md-10 border rounded text-white bg-dark">
-                    <div class="p-3">
-                        <h1>Le BTS SIO</h1>
-                        <p>Le brevet de technicien supérieur Services informatiques aux organisations est un cursus d'études se déroulant sur deux ans. Il peut être préparé en formation continue, en alternance ou en formation initiale.</p>
-                        <p>Dès le deuxième semestre de la première année, une option doit être choisie par l'étudiant entre :</p>
-                        <li>Solutions Logicielles et Applications Métier (SLAM)</li>
-                        <li>Solutions d’Infrastructure, Systèmes et Réseaux (SISR)</li>
+                        <!-- BURGER -->
+                        <div class="d-md-none" style="position: relative; z-index:3">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+
+                        <!-- NAV MENU TEL / OFF CANVA -->
+                        <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <!-- TITRE OFFCANVAS -->
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Marmier Tanguy</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <!-- Etude et accueil -->
+                                    <div class="row m-0">
+                                        <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="index.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-house fs-3"></i><br>Accueil</a></div>
+                                        <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="bts-sio.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-book fs-3"></i><br>Etudes</a></div>
+                                    </div>
+                                    
+                                    <!-- Profil -->
+                                    <div class="row m-0 mt-3">
+                                        <div class="text-center">
+                                            <li class="nav-item dropdown">
+                                                <a class="col-12 p-3 btn btn-outline-primary dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="bi bi-person-bounding-box fs-3"></i>
+                                                    <br>Profil
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                    <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
+                                                    <li><a class="dropdown-item" href="projets.php">Projets</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="stages.php">Stages</a></li>
+                                                    <li><a class="dropdown-item" href="files/CV_Marmier_Tanguy.pdf" target="_blank">Curriculum vitae</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row m-0 mt-3">
+                                        <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="services.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-braces fs-3"></i><br>Services</a></div>
+                                        <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="veille_technologique.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-headset-vr fs-3"></i><br>Veille</a></div>
+                                    </div>
+                                    
+                                    <div class="row m-0 mt-5">
+                                        <div class="text-center">
+                                            <a class="btn col-12 btn-outline-primary pt-2 text-white" href="contact.php"><i class="bi bi-envelope fs-3"></i><br>Contact</a>
+                                        </div>
+                                    </div>
+                                  
+
+                                    <div class="row m-0 fixed-bottom">
+                                        <div class="col-12 text-end">© 2023 Copyright</div>
+                                    </div>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                </div>
+            </section>
+            
+
+            <!-- Container -->
+            <section class="text-white" style="height:90vh; position: relative; z-index: 1;">
+                <div class="h-100 row text-white m-0 d-flex justify-content-around">
+                    <div class="col-10 col-md-4 bg-dark border border-2 rounded-3 border-opacity-50 border-success p-2 my-auto text-center typewriter">
+                        <h4>Bienvenue sur mon Portfolio</h4>
+                    </div>
+                    <div class="my-auto col-5 d-none d-md-block text-center">
+                        <img class="upDown rounded-circle bg-dark" style="height: 140px; weight: 140px" src="images/moi.png" alt="moi">
                     </div>
                 </div>
-                <p class="text-center text-white mt-2">Vous pouvez cliquer <a class="btn btn-secondary"href="https://www.reseaucerta.org/sites/default/files/sio/BTS_ServicesInformatiquesOrganisations2019.pdf" target="_blank">ici</a> si vous souhaitez visualiser le référenciel du BTS SIO.</p>
-        </div>
-
-        <!-- LES OPTIONS -->
-        <div class="row w-100 mx-auto mt-3 d-flex justify-content-center pb-5">
-            <div class="col-md-5 border rounded text-white bg-dark mt-3 me-md-3">
-                <div class="p-3">
-                    <h1 class="border-bottom pb-1">L'option SLAM</h1>
-                    <p>
-                        L'option Solutions logicielles et applications métier (SLAM)<br>
-                        Le titulaire du diplôme participe à la production et à la fourniture de services en développant,
-                        en adaptant ou en maintenant des solutions applicatives.<br>
-                        Il intervient plus particulièrement dans :<br>
-                        <li>la définition des spécifications techniques à partir de l’expression des besoins des utilisateurs et des contraintes de l’organisation préalablement recensées.</li>
-                        <li>la réalisation ou l’adaptation puis la validation de solutions applicatives à l’aide des environnements de développement retenus.</li>
-                        <li>la gestion du patrimoine applicatif.</li>
-                        <li>la rédaction de la documentation d’une solution applicative et la formation des utilisateurs.</li>
-                        <li>la recherche de réponses adaptées à des problèmes liés à la fourniture des services informatiques.</li>
-                        <li>l’accompagnement et l’assistance des utilisateurs;</li>
-                        <li>le maintient de la qualité des services informatiques.</li><br>
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-5 border rounded text-white bg-dark mt-3">
-                <div class="p-3">
-                    <h1 class="border-bottom pb-1">L'option SISR</h1>
-                    <p>
-                        L'option Solutions d’infrastructure, systèmes et réseaux (SISR)<br>
-                        Le titulaire du diplôme participe à la production et à la fourniture de services en réalisant ou en adaptant des solutions d’infrastructure et en assurant le fonctionnement optimal des équipements.<br>
-                        Il intervient plus particulièrement dans :<br>
-                        <li>l’installation, l’intégration, l’administration, la sécurisation des équipements et des services informatiques.</li>
-                        <li>l’exploitation, la supervision et la maintenance d'une infrastructure.</li>
-                        <li>la définition et la configuration des postes clients, des serveurs et des équipements d’interconnexion, leur déploiement et leur maintenance.</li>
-                        <li>la gestion des actifs de l’infrastructure.</li>
-                        <li>la recherche de réponses adaptées à des besoins d’évolution de l’infrastructure ou à des problèmes liés à la mise à disposition des services informatiques.</li>
-                        <li>la résolution des incidents et l’assistance aux utilisateurs.</li>
-                        <li>le maintient de la qualité des services informatiques.</li>
-                    </p>
-                </div>
-            </div>
-        </div>
+            </section>
         
-</section>
-
-</body>
-
-<?php
-    include 'vue/footer.php'
-?>
+        </section>    
+    </body>
+    
+</html>

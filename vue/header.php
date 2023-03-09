@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html class="h-100 w-100">
+<html class="h-100">
     <head>
 
         <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
@@ -14,7 +13,9 @@
         <link rel="stylesheet" href="css/style.css">
 
         <!-- BOOTSTRAP 5 -->
-        <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
 
         <!-- POPPER -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
@@ -23,62 +24,109 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
         <!-- JAVASCRIPT -->
-        <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
 
     </head>
 
-<!-- BODY -->
-<body class="h-100 w-100">
-    <!-- LOADER ? -->
-    <div id="loading">
-        <div class="load-circle"><span class="one"></span></div>
-    </div>
+    <!-- PAGE -->
+    <body class="h-100">
 
-    <!-- NAVBAR -->
-    <section class="h-25 bg-dark">
-        <nav  class="navbar navbar-expand-md bg-dark navbar-dark" aria-label="Fourth navbar example" style="z-index:3">
-            <img src="images/logo.webp" alt="Logo TM" style="width : 180px;">
-
-            <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <!-- NAVBAR -->
+            <section class="bg-dark" style="height:10vh">
+                <div class="row m-0 h-100 text-white d-flex align-items-center">
                     
-                    <!-- ACCUEIL -->
-                    <li class="nav-item mx-auto">
-                        <a class="nav-link active h4 text-nowrap" aria-current="page" href="index.php">Accueil</a>
-                    </li>
+                <nav class="navbar navbar-dark">
+                    <div class="container-fluid">
+                        <!-- TITRE -->
+                        <a class="navbar-brand" href="#"><img src="images/logo.webp" alt="logo" style="height: 50px; weight: 40px"> Tanguy Marmier</a>
 
-                    <!-- PROFIL -->
-                    <li class="nav-item dropdown mx-auto">
-                        <a class="nav-link dropdown-toggle text-center h4 text-nowrap" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown04">
-                        <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
-                        <li><a class="dropdown-item" href="projets.php">Projets</a></li>
-                        <div class="dropdown-divider"></div>
-                        <li><a class="dropdown-item" href="stages.php">Stages</a></li>
-                        <li><a class="dropdown-item" href="files/CV_Marmier_Tanguy.pdf" target="_blank">Curriculum vitae</a></li>
-                        </ul>
-                    </li>
-                    
-                    <li class="nav-item mx-auto">
-                        <a class="nav-link h4 text-nowrap" href="services.php">Services</a>
-                    </li>
+                        <!-- NAV MENU PC -->
+                        <div class="d-flex justify-content-evenly">
+                        <a class="nav-link d-none d-md-block p-2"  href="index.php">Accueil</a>
+                        <a class="nav-link d-none d-md-block p-2" href="bts-sio.php">Etudes</a>
+                        <li class="nav-item dropdown list-unstyled d-none d-md-block p-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Profil
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
+                                <li><a class="dropdown-item" href="projets.php">Projets</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="stages.php">Stages</a></li>
+                                <li><a class="dropdown-item" href="files/CV_Marmier_Tanguy.pdf" target="_blank">Curriculum vitae</a></li>
+                            </ul>
+                        </li>
+                        <a class="nav-link d-none d-md-block p-2" href="services.php">Services</a>
+                        <a class="nav-link d-none d-md-block p-2" href="veille_technologique.php">Veille technologique</a>
+                        <a class="nav-link d-none d-md-block p-2" href="contact.php">Contact</a>   
+                        </div>
 
-                    <!-- VEILLE TECHNO -->
-                    <li class="nav-item mx-auto">
-                        <a class="nav-link h4 text-nowrap" href="veille_technologique.php">Veille technologique</a>
-                    </li>
-                    
-                    <!-- CONTACT -->
-                    <li class="nav-item mx-auto">
-                        <a class="nav-link h4 text-nowrap" href="contact.php">Contact</a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </nav>
-    </section>
+                        <!-- BURGER -->
+                        <div class="d-md-none">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+
+                        <!-- NAV MENU TEL / OFF CANVA -->
+                        <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <!-- TITRE OFFCANVAS -->
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Marmier Tanguy</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <!-- Etude et accueil -->
+                                    <div class="row m-0">
+                                        <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="index.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-house fs-3"></i><br>Accueil</a></div>
+                                        <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="bts-sio.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-book fs-3"></i><br>Etudes</a></div>
+                                    </div>
+                                    
+                                    <!-- Profil -->
+                                    <div class="row m-0 mt-3">
+                                        <div class="text-center">
+                                            <li class="nav-item dropdown">
+                                                <a class="col-12 p-3 btn btn-outline-primary dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="bi bi-person-bounding-box fs-3"></i>
+                                                    <br>Profil
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                    <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
+                                                    <li><a class="dropdown-item" href="projets.php">Projets</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="stages.php">Stages</a></li>
+                                                    <li><a class="dropdown-item" href="files/CV_Marmier_Tanguy.pdf" target="_blank">Curriculum vitae</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row m-0 mt-3">
+                                        <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="services.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-braces fs-3"></i><br>Services</a></div>
+                                        <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="veille_technologique.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-headset-vr fs-3"></i><br>Veille</a></div>
+                                    </div>
+                                    
+                                    <div class="row m-0 mt-5">
+                                        <div class="text-center">
+                                            <a class="btn col-12 btn-outline-primary pt-2 text-white" href="contact.php"><i class="bi bi-envelope fs-3"></i><br>Contact</a>
+                                        </div>
+                                    </div>
+                                  
+
+                                    <div class="row m-0 fixed-bottom">
+                                        <div class="col-12 text-end">© 2023 Copyright</div>
+                                    </div>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                </div>
+            </section>
