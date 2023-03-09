@@ -6,10 +6,10 @@
     <div class="container-fluid p-5" style="background: url(images/background.webp); background-size: cover;">
     <div class="row justify-content-center">
         <div class="col-xl-6">
-        <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
+        <div class="card border-0 rounded-3 shadow-lg overflow-hidden bg-dark text-dark">
             <div class="card-body p-0">
                 <div class="col-sm-12 p-4">
-                <div class="text-center">
+                <div class="text-center text-white">
                     <div class="h3 fw-light">Formulaire de contact</div>
                     <p class="mb-4 text-muted">Merci de remplir correctement les champs</p>
                 </div>
@@ -31,7 +31,7 @@
                     <!-- Téléphone -->
                     <div class="form-floating mb-3">
                     <input name="phone" class="form-control" id="phone" type="tel" placeholder="Téléphone" />
-                    <label for="phone">Téléphone *(facultatif)</label>
+                    <label for="phone">Téléphone <i>(facultatif)</i></label>
                     </div>
 
                     <!-- MESSAGE -->
