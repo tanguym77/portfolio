@@ -80,7 +80,7 @@
                                 Profil
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
+                                <li><a class="dropdown-item" href="competences.php">Certifications</a></li>
                                 <li><a class="dropdown-item" href="projets.php">Projets</a></li>
                                 <li>
                                     <hr class="dropdown-divider">

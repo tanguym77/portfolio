@@ -9,18 +9,18 @@
             
             <!-- Instagram -->
             <a class="btn border rounded bg-danger me-5" style="color: white;" href="https://www.instagram.com/_tanguym_/" target="_blank" role="button">
-                <i class="bi bi-instagram"></i>
+                <i class="bi bi-instagram"><br>Instagram</i>
             </a>
 
             
             <!-- Linkedin -->
             <a class="btn border rounded bg-primary" style="color: white;" href="https://www.linkedin.com/in/marmier-tanguy" target="_blank" role="button">
-                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-linkedin"><br>Linkedin</i>
             </a>
 
             <!-- Github -->
-            <a class="btn border rounded bg-dark ms-5" style="color: white;" href="https://github.com/tanguym77" target="_blank" role="button">
-                <i class="bi bi-github"></i>
+            <a class="btn border rounded ms-5" style="color: white; background-color: rgba(0, 0, 0, 0.2);" href="https://github.com/tanguym77" target="_blank" role="button">
+                <i class="bi bi-github"><br>Github</i>
             </a>
         </div>
     </div>

@@ -32,8 +32,8 @@
     <body class="h-100">
 
             <!-- NAVBAR -->
-            <section class="bg-dark" style="height:10vh">
-                <div class="row m-0 h-100 text-white d-flex align-items-center">
+            <section class="bg-dark" style="height:10vh; ">
+                <div class="row m-0 h-100 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.2);">
                     
                 <nav class="navbar navbar-dark">
                     <div class="container-fluid">
@@ -94,7 +94,7 @@
                                                     <br>Profil
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end">
-                                                    <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
+                                                    <li><a class="dropdown-item" href="competences.php">Certifications</a></li>
                                                     <li><a class="dropdown-item" href="projets.php">Projets</a></li>
                                                     <li>
                                                         <hr class="dropdown-divider">

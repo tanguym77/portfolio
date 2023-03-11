@@ -16,15 +16,24 @@
                     <h3>Mais c'est quoi une veille technologique ?</h3>
                 </div>
                 <div class="col-12 pt-3 border-top">
-                    <p>La veille technologique consiste à s'informer de façon régulière sur un sujet pour être au courant de ses inovations et actualités.</p>
+                    <p>La veille technologique consiste à s'informer de façon régulière sur un sujet pour être au courant de ses inovations et actualités. <br>
+                        Étant passionné par l'informatique, les technologies évoluent rapidement et il est primordial de se tenir à jour des dernières nouveautés.</p>
                 </div>
                 <div class="row border-top p-3">
-                    <div class="col-5 border-end d-flex justify-content-center align-items-center">
-                        <p> Quels sont les outils de la veille technologique ? </p>
+                    <div class="col-md-5 rounded d-flex justify-content-center align-items-center text-center bg-secondary" style="background: url(images/veille.jpg); background-size: cover; background-position: center;">
+                        <p class="bg-dark rounded p-1"> Quels sont les outils de la veille technologique ? </p>
                     </div>
-                    <div class="col-7">
-                        <p> Différents outils peuvent être utilisés pour faire une veille technologique. J'ai choisi l'outil Feedly, un aggrégateur de flux RSS en ligne qui me permet de me tenir à jour en m'abonnant à des thèmes et journaux. </p>
-                        <p><img src="images/Feedly-logo.png" class="rounded-circle" style="max-width: 50px; max-height: 50px;"> <a class="text-white" href="https://feedly.com" target="_blank">Feedly</a></p>
+
+                    <div class="col-md-7 pt-2">
+                        <div class="row">
+                            <p> Différents outils peuvent être utilisés pour faire une veille technologique. J'ai choisi l'outil Feedly, un aggrégateur de flux RSS en ligne qui me permet de me tenir à jour en m'abonnant à des thèmes et journaux. </p>
+                            <p><img src="images/Feedly-logo.png" class="rounded-circle" style="max-width: 50px; max-height: 50px;"> <a class="text-white" href="https://feedly.com" target="_blank">Feedly</a></p>
+                        </div>
+                        <div class="row">
+                            <p> Différents outils peuvent être utilisés pour faire une veille technologique. J'ai choisi l'outil Feedly, un aggrégateur de flux RSS en ligne qui me permet de me tenir à jour en m'abonnant à des thèmes et journaux. </p>
+                            <p><img src="images/Feedly-logo.png" class="rounded-circle" style="max-width: 50px; max-height: 50px;"> <a class="text-white" href="https://feedly.com" target="_blank">Feedly</a></p>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
