@@ -33,9 +33,9 @@
         <!-- STAGE DEUXIEME ANNEE -->
         <div class="row w-100 mx-auto d-flex justify-content-center pt-5">
             <div class="col-md-10 border rounded text-white bg-dark p-3 mb-5">
-                <p> <h1 class="pb-2 border-bottom">Stage de 2e année</h1> </p>
+                <p> <h1 class="pb-2 border-bottom">Stage de 2eme année</h1> </p>
 
-                <p>En 2e année, mon stage s'est déroulé du 2 Janvier au 3 Février 2023 au sein de l'entreprise Star Casting. <br>
+                <p>En 2eme année, mon stage s'est déroulé du 2 Janvier au 3 Février 2023 au sein de l'entreprise Star Casting. <br>
                 Dans le cadre d'un agrandissement, Star Casting souhaitait utiliser une plateforme en ligne pour gérer plus facilement ses talents.<br>
                 Ma tache à donc été la réalisation d'un site avec login permettant la gestion de talent.</p>
                 <p>La plateforme possède les fonctionnalités suivantes : <br>

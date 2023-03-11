@@ -61,7 +61,6 @@
                 <span></span>
                 <span></span>
             </div>
-            
 
             <!-- NAVBAR -->
             <section style="height:10vh; position: relative; z-index: 2;">
@@ -126,7 +125,7 @@
                                                     <br>Profil
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end">
-                                                    <li><a class="dropdown-item" href="competences.php">Compétences</a></li>
+                                                    <li><a class="dropdown-item" href="competences.php">Certifications</a></li>
                                                     <li><a class="dropdown-item" href="projets.php">Projets</a></li>
                                                     <li>
                                                         <hr class="dropdown-divider">
@@ -167,11 +166,37 @@
             <!-- Container -->
             <section class="text-white" style="height:90vh; position: relative; z-index: 1;">
                 <div class="h-100 row text-white m-0 d-flex justify-content-around">
-                    <div class="col-10 col-md-4 bg-dark border border-2 rounded-3 border-opacity-50 border-success p-2 my-auto text-center typewriter">
-                        <h4>Bienvenue sur mon Portfolio</h4>
+                    <div class="col-10 col-md-4 my-auto text-center upDown">
+                        <a class="text-white text-decoration-none upDown">B</a>
+                        <a class="text-white text-decoration-none upDown">I</a>
+                        <a class="text-white text-decoration-none upDown">E</a>
+                        <a class="text-white text-decoration-none upDown">N</a>
+                        <a class="text-white text-decoration-none upDown">V</a>
+                        <a class="text-white text-decoration-none upDown">E</a>
+                        <a class="text-white text-decoration-none upDown">N</a>
+                        <a class="text-white text-decoration-none upDown">U</a>
+                        <a class="text-white text-decoration-none upDown">E</a>
+                        <br>
+                        <a class="text-white text-decoration-none upDown">S</a>
+                        <a class="text-white text-decoration-none upDown">U</a>
+                        <a class="text-white text-decoration-none upDown">R</a>
+                        &nbsp
+                        <a class="text-white text-decoration-none upDown">M</a>
+                        <a class="text-white text-decoration-none upDown">O</a>
+                        <a class="text-white text-decoration-none upDown">N</a>
+                        <br>
+                        <a class="text-white text-decoration-none upDown">P</a>
+                        <a class="text-white text-decoration-none upDown">O</a>
+                        <a class="text-white text-decoration-none upDown">R</a>
+                        <a class="text-white text-decoration-none upDown">T</a>
+                        <a class="text-white text-decoration-none upDown">F</a>
+                        <a class="text-white text-decoration-none upDown">O</a>
+                        <a class="text-white text-decoration-none upDown">L</a>
+                        <a class="text-white text-decoration-none upDown">I</a>
+                        <a class="text-white text-decoration-none upDown">O</a>
                     </div>
                     <div class="my-auto col-5 d-none d-md-block text-center">
-                        <img class="upDown rounded-circle bg-dark" style="height: 140px; weight: 140px" src="images/moi.png" alt="moi">
+                        <img class="upDown rounded-5 p-2 border" style="height: 160px; weight: 150px" src="images/moi.png" alt="moi">
                     </div>
                 </div>
             </section>
