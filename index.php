@@ -69,7 +69,7 @@
                 <nav class="navbar navbar-dark">
                     <div class="container-fluid">
                         <!-- TITRE -->
-                        <a class="navbar-brand" href="#"><img src="images/logo.webp" alt="logo" style="height: 50px; weight: 40px"> Tanguy Marmier</a>
+                        <a class="navbar-brand" href="#"><img src="images/logo.webp" alt="logo" style="height: 50px; width: 60px"> Tanguy Marmier</a>
 
                         <!-- NAV MENU PC -->
                         <div class="d-flex justify-content-evenly">
@@ -89,7 +89,7 @@
                                 <li><a class="dropdown-item" href="files/CV_Marmier_Tanguy.pdf" target="_blank">Curriculum vitae</a></li>
                             </ul>
                         </li>
-                        <a class="nav-link d-none d-md-block p-2" href="services.php">Services</a>
+                        <!-- <a class="nav-link d-none d-md-block p-2" href="services.php">Services</a> -->
                         <a class="nav-link d-none d-md-block p-2" href="veille_technologique.php">Veille technologique</a>
                         <a class="nav-link d-none d-md-block p-2" href="contact.php">Contact</a>   
                         </div>
@@ -138,7 +138,7 @@
                                     </div>
                                     
                                     <div class="row m-0 mt-3">
-                                        <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="services.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-braces fs-3"></i><br>Services</a></div>
+                                        <!-- <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="services.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-braces fs-3"></i><br>Services</a></div> -->
                                         <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="veille_technologique.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-headset-vr fs-3"></i><br>Veille</a></div>
                                     </div>
                                     
@@ -196,7 +196,7 @@
                         <a class="text-white text-decoration-none upDown">O</a>
                     </div>
                     <div class="my-auto col-5 d-none d-md-block text-center">
-                        <img class="upDown rounded-5 p-2 border" style="height: 160px; weight: 150px" src="images/moi.png" alt="moi">
+                        <img class="upDown rounded-5 p-2 border" style="height: 160px; width: 150px" src="images/moi.png" alt="moi">
                     </div>
                 </div>
             </section>

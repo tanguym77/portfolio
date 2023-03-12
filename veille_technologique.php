@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-12 pt-3 border-top">
                     <p>La veille technologique consiste à s'informer de façon régulière sur un sujet pour être au courant de ses inovations et actualités. <br>
-                        Étant passionné par l'informatique, les technologies évoluent rapidement et il est primordial de se tenir à jour des dernières nouveautés.</p>
+                        Étant passionné par l'informatique, il est primordial de se tenir à jour des dernières nouveautés pour faire face aux évolutions rapides.</p>
                 </div>
                 <div class="row border-top p-3">
                     <div class="col-md-5 rounded d-flex justify-content-center align-items-center text-center bg-secondary" style="background: url(images/veille.jpg); background-size: cover; background-position: center;">
@@ -26,14 +26,12 @@
 
                     <div class="col-md-7 pt-2">
                         <div class="row">
-                            <p> Différents outils peuvent être utilisés pour faire une veille technologique. J'ai choisi l'outil Feedly, un aggrégateur de flux RSS en ligne qui me permet de me tenir à jour en m'abonnant à des thèmes et journaux. </p>
+                            <p> Différents outils peuvent être utilisés pour faire une veille technologique. Tout d'abord, j'ai choisi l'outil Feedly, un aggrégateur de flux RSS en ligne qui me permet de me tenir à jour en m'abonnant à des thèmes et journaux. </p>
                             <p><img src="images/Feedly-logo.png" class="rounded-circle" style="max-width: 50px; max-height: 50px;"> <a class="text-white" href="https://feedly.com" target="_blank">Feedly</a></p>
                         </div>
                         <div class="row">
-                            <p> Différents outils peuvent être utilisés pour faire une veille technologique. J'ai choisi l'outil Feedly, un aggrégateur de flux RSS en ligne qui me permet de me tenir à jour en m'abonnant à des thèmes et journaux. </p>
-                            <p><img src="images/Feedly-logo.png" class="rounded-circle" style="max-width: 50px; max-height: 50px;"> <a class="text-white" href="https://feedly.com" target="_blank">Feedly</a></p>
+                            <p> Ensuite, je me suis aussi abonné à des créateurs de contenu sur youtube comme <a class="text-white" href="https://www.youtube.com/@ThrillSeekerVR" target="_blank">ThrillSeeker</a> ou <a class="text-white" href="https://www.youtube.com/@DailyVR" target="_blank">DailyVR</a> qui se sont spécialisé sur ce sujet et traitent des dernières nouveautés du marché.</p>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -44,15 +42,15 @@
             <div class="col-md-7 d-none d-md-block border rounded" style="background-image: url(images/vr.gif); background-size: cover; background-position: center; min-height : 50vh!important;">
             </div>
             <div class="col-md-5 bg-dark p-3 border rounded">
-                <div class="col-12">
+                <div class="col-12 border-bottom">
                     <h3> La réalité virtuelle </h3>
                 </div>
-                <div class="col-12 p-2 mt-2 border-top">
+                <div class="col-12 p-2 mt-4">
                     <p>Mon sujet de veille technologique est la réalité virtuelle.</p>
                     <p>La réalité virtuelle est une technologie qui connait un très fort essor au cours de ces dernières années. Cela est dû aux
-                        nouvelles découvertes technologiques et à l'arrivée du metaverse de Meta (Facebook).
+                        nouvelles découvertes technologiques et à l'arrivée du metaverse de Meta (anciennement Facebook) en octobre 2021.
                     </p>
-                    <p>Afin de comprendre au mieux cette technologie j'ai moi même décidé de me procurer un Oculus Quest 2 pour tester les dernières nouveautés (comme le suivi des mains ou la réalité mixte).
+                    <p>Afin de comprendre au mieux cette technologie j'ai moi même décidé de me procurer un Oculus Quest 2 pour tester par moi même les dernières nouveautés (comme le suivi des mains ou la réalité mixte).
                        Au cours de mon expérience j'ai découvert que la réalité virtuelle offrait de grandes possibilités autant pour les entreprises que pour les jeux vidéo.
                     </p>
                     <p>
@@ -62,8 +60,105 @@
             </div>
         </div>
 
+        <!-- LES ARTICLES -->
+        <div class="row m-0 bg-dark text-white pb-5">
+            <div class="text-center p-2 border mb-5">
+                <h1>Les dernières nouveautés</h1>
+            </div>
+
+            <!-- ARTICLE 1 -->
+            <div class="mt-5 mb-5">
+                <!-- Titre -->
+                <h3 class="text-center">Titre article 1</h3>
+                <!-- Sous titre -->
+                <h5 class="text-center"><i>Sous titre</i></h5>
+                <div class="row m-0 justify-content-center">
+                    <!-- Image -->
+                    <div class="col-5 d-none d-md-block p-2 m-1 border">
+                        Mon Image <br><br><br><br><br><br><br>
+                    </div>
+                    <!-- TEXTE -->
+                    <div class="col-10 col-md-5 p-2 m-1 border bg-secondary">
+                        Mon texte <br><br><br><br><br><br><br>
+                    </div>
+                </div>    
+            </div>
+            
+            <!-- ARTICLE 1 -->
+            <div class="mt-5 mb-5">
+                <!-- Titre -->
+                <h3 class="text-center">Titre article 2</h3>
+                <!-- Sous titre -->
+                <h5 class="text-center"><i>Sous titre</i></h5>
+                <div class="row m-0 justify-content-center">
+                    <!-- TEXTE -->
+                    <div class="col-10 col-md-5 p-2 m-1 border bg-secondary">
+                        Mon texte <br><br><br><br><br><br><br>
+                    </div>
+                    <!-- Image -->
+                    <div class="col-5 d-none d-md-block p-2 m-1 border">
+                        Mon Image <br><br><br><br><br><br><br>
+                    </div>
+                </div>    
+            </div>
+
+            <!-- ARTICLE 1 -->
+            <div class="mt-5 mb-5">
+                <!-- Titre -->
+                <h3 class="text-center">Titre article 3</h3>
+                <!-- Sous titre -->
+                <h5 class="text-center"><i>Sous titre</i></h5>
+                <div class="row m-0 justify-content-center">
+                    <!-- Image -->
+                    <div class="col-5 d-none d-md-block p-2 m-1 border">
+                        Mon Image <br><br><br><br><br><br><br>
+                    </div>
+                    <!-- TEXTE -->
+                    <div class="col-10 col-md-5 p-2 m-1 border bg-secondary">
+                        Mon texte <br><br><br><br><br><br><br>
+                    </div>
+                </div>    
+            </div>
+            
+            <!-- ARTICLE 1 -->
+            <div class="mt-5 mb-5">
+                <!-- Titre -->
+                <h3 class="text-center">Titre article 4</h3>
+                <!-- Sous titre -->
+                <h5 class="text-center"><i>Sous titre</i></h5>
+                <div class="row m-0 justify-content-center">
+                    <!-- TEXTE -->
+                    <div class="col-10 col-md-5 p-2 m-1 border bg-secondary">
+                        Mon texte <br><br><br><br><br><br><br>
+                    </div>
+                    <!-- Image -->
+                    <div class="col-5 d-none d-md-block p-2 m-1 border">
+                        Mon Image <br><br><br><br><br><br><br>
+                    </div>
+                </div>    
+            </div>
+
+            <!-- ARTICLE 1 -->
+            <div class="mt-5 mb-5">
+                <!-- Titre -->
+                <h3 class="text-center">Titre article 5</h3>
+                <!-- Sous titre -->
+                <h5 class="text-center"><i>Sous titre</i></h5>
+                <div class="row m-0 justify-content-center">
+                    <!-- Image -->
+                    <div class="col-5 d-none d-md-block p-2 m-1 border">
+                        Mon Image <br><br><br><br><br><br><br>
+                    </div>
+                    <!-- TEXTE -->
+                    <div class="col-10 col-md-5 p-2 m-1 border bg-secondary">
+                        Mon texte <br><br><br><br><br><br><br>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
         <!-- CAROUSEL -->
-        <div class="row m-md-5 m-0 justify-content-center border-5 mb-2">
+        <!-- <div class="row m-md-5 m-0 justify-content-center border-5 mb-2">
             <div class="col-md-5 col-10">
                 <div id="carousel" class="carousel carousel-dark slide border rounded" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -73,7 +168,7 @@
                     </div>
 
                     <div class="carousel-inner">
-                        <!-- ARTICLE 1 -->
+
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="images/articles/meta-quest-pro.webp" class="d-block w-100" alt="article1">
                             <div class="carousel-caption d-none d-md-block text-white" style="background-color: rgba(44, 44, 44, 0.5);">
@@ -82,7 +177,7 @@
                                 <a class="btn btn-light" href="https://www.blog-nouvelles-technologies.fr/244460/le-meta-quest-pro-est-disponible-des-aujourdhui-les-premiers-tests-aussi/" target="_blank">En savoir plus</a>
                             </div>
                         </div>
-                        <!-- ARTICLE 2 -->
+                       
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="images/articles/Pico-4.jpg" class="d-block w-100" alt="article2">
                             <div class="carousel-caption d-none d-md-block text-white" style="background-color: rgba(44, 44, 44, 0.5);">
@@ -91,7 +186,7 @@
                                 <a class="btn btn-light" href="https://www.realite-virtuelle.com/pico-4-enterprise/" target="_blank">En savoir plus</a>
                             </div>
                         </div>
-                        <!-- ARTICLE 3 -->
+                   
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="images/articles/HaptXG1.png" class="d-block w-100" alt="article3">
                             <div class="carousel-caption d-none d-md-block text-white" style="background-color: rgba(44, 44, 44, 0.5);">
@@ -109,7 +204,7 @@
                     </button>
                 </div>
             </div>
-        </div>
+        </div> -->
         
 </section>
 </body>
