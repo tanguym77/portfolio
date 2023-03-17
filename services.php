@@ -17,7 +17,7 @@
                 J'ai donc créé mon entreprise de Conseil en systèmes et logiciels informatiques <a class="text-white" href="https://www.societe.com/etablissement/tm-conseil-91955336200014.html" target="_blank">TM Conseil</a> en octobre 2022.</p>
                 <p>Depuis, je suis prestataire de service pour Wands et j'ai créé un site de gestion des talents.</p>
             </div>
-        </div>  
+        </div>
 
         <!-- Tarifs -->
         <div class="row w-100 mx-auto d-flex justify-content-center pt-3">

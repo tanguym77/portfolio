@@ -2,7 +2,7 @@
     include 'vue/header.php';
 ?>
 
-<section class="w-auto d-flex justify-content-center" style="background: url(images/background.webp); background-size: cover; background-position: center; background-attachment: fixed;">
+<section class="w-auto d-flex justify-content-center pb-5" style="background: url(images/background.webp); background-size: cover; background-position: center; background-attachment: fixed;">
     <div>
         <!-- TITLE -->
         <div class="row w-100 mx-auto text-white text-center pt-5 m-0">
@@ -16,21 +16,21 @@
                     <h3>Mais c'est quoi une veille technologique ?</h3>
                 </div>
                 <div class="col-12 pt-3 border-top">
-                    <p>La veille technologique consiste à s'informer de façon régulière sur un sujet pour être au courant de ses inovations et actualités. <br>
+                    <p>La veille technologique, c'est s'informer régulièrement sur un sujet dans le domaine de l'informatique pour être au courant de ses inovations et actualités. <br>
                         Étant passionné par l'informatique, il est primordial de se tenir à jour des dernières nouveautés pour faire face aux évolutions rapides.</p>
                 </div>
                 <div class="row border-top p-3">
-                    <div class="col-md-5 rounded d-flex justify-content-center align-items-center text-center bg-secondary" style="background: url(images/veille.jpg); background-size: cover; background-position: center;">
-                        <p class="bg-dark rounded p-1"> Quels sont les outils de la veille technologique ? </p>
+                    <div class="col-md-5 rounded d-flex justify-content-center align-items-center text-center bg-secondary">
+                        <p class="border rounded p-1 mt-3"> Quels sont les outils de la veille technologique ? </p>
                     </div>
 
                     <div class="col-md-7 pt-2">
                         <div class="row">
                             <p> Différents outils peuvent être utilisés pour faire une veille technologique. Tout d'abord, j'ai choisi l'outil Feedly, un aggrégateur de flux RSS en ligne qui me permet de me tenir à jour en m'abonnant à des thèmes et journaux. </p>
-                            <p><img src="images/Feedly-logo.png" class="rounded-circle" style="max-width: 50px; max-height: 50px;"> <a class="text-white" href="https://feedly.com" target="_blank">Feedly</a></p>
+                            <p><img src="images/veille/Feedly-logo.png" class="rounded-circle" style="max-width: 50px; max-height: 50px;"> <a class="text-white" href="https://feedly.com" target="_blank">Feedly</a></p>
                         </div>
                         <div class="row">
-                            <p> Ensuite, je me suis aussi abonné à des créateurs de contenu sur youtube comme <a class="text-white" href="https://www.youtube.com/@ThrillSeekerVR" target="_blank">ThrillSeeker</a> ou <a class="text-white" href="https://www.youtube.com/@DailyVR" target="_blank">DailyVR</a> qui se sont spécialisé sur ce sujet et traitent des dernières nouveautés du marché.</p>
+                            <p> Ensuite, je me suis aussi abonné à des créateurs de contenu sur youtube comme <a class="text-white" href="https://www.youtube.com/@ThrillSeekerVR" target="_blank">ThrillSeeker</a> ou <a class="text-white" href="https://www.youtube.com/@DailyVR" target="_blank">DailyVR</a> qui sont spécialisé sur ce sujet et traitent des dernières nouveautés du marché.</p>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
 
         <!-- CARD -->
         <div class="row text-white p-3 m-0">
-            <div class="col-md-7 d-none d-md-block border rounded" style="background-image: url(images/vr.gif); background-size: cover; background-position: center; min-height : 50vh!important;">
+            <div class="col-md-7 d-none d-md-block border rounded" style="background-image: url(images/veille/vr.gif); background-size: cover; background-position: center; min-height : 50vh!important;">
             </div>
             <div class="col-md-5 bg-dark p-3 border rounded">
                 <div class="col-12 border-bottom">
@@ -69,143 +69,154 @@
             <!-- ARTICLE 1 -->
             <div class="mt-5 mb-5">
                 <!-- Titre -->
-                <h3 class="text-center">Titre article 1</h3>
+                <h3 class="text-center">PS VR 2</h3>
                 <!-- Sous titre -->
-                <h5 class="text-center"><i>Sous titre</i></h5>
+                <h5 class="text-center"><i>Le PS VR 2 dépasserait les ventes de son prédécesseur ?</i></h5>
                 <div class="row m-0 justify-content-center">
                     <!-- Image -->
-                    <div class="col-5 d-none d-md-block p-2 m-1 border">
-                        Mon Image <br><br><br><br><br><br><br>
+                    <div class="col-5 d-none d-md-block p-0 m-1 border">
+                        <img src="images/veille/ps-vr2.png" alt="" class="img-fluid">
                     </div>
                     <!-- TEXTE -->
                     <div class="col-10 col-md-5 p-2 m-1 border bg-secondary">
-                        Mon texte <br><br><br><br><br><br><br>
+                        <div class="col-12">
+                            <p class="mt-4">
+                                Le nouveau casque arrivé récemment sur le marché pour la somme de 600€ serait en bonne voie pour dépasser son prédecesseur vendu à 5 millions d'unités de 2016 à 2019. <br><br>
+                                Cependant, seul Sony possède les chiffres des ventes et le média Bloomberg rapportait au contraire un faible nombre de précommande.
+                            </p>
+                        </div>
+                        <!-- Lien -->
+                        <div class="col-12 text-center"> <a href="https://www.realite-virtuelle.com/psvr-2-surpasser-psvr-termes-vente/" class="btn btn-primary" target="_blank">Voir l'article</a> </div> 
                     </div>
                 </div>    
             </div>
             
-            <!-- ARTICLE 1 -->
+            <!-- ARTICLE 2 -->
             <div class="mt-5 mb-5">
                 <!-- Titre -->
-                <h3 class="text-center">Titre article 2</h3>
+                <h3 class="text-center">Oculus Quest Pro</h3>
                 <!-- Sous titre -->
-                <h5 class="text-center"><i>Sous titre</i></h5>
+                <h5 class="text-center"><i>Meta annonce une baisse de prix sur les Quest Pro</i></h5>
                 <div class="row m-0 justify-content-center">
                     <!-- TEXTE -->
                     <div class="col-10 col-md-5 p-2 m-1 border bg-secondary">
-                        Mon texte <br><br><br><br><br><br><br>
+                        <div class="col-12">
+                            <p class="mt-4">
+                                Initialement lancé à 1800€, Le casque de Meta a maintenant subit une baisse de 33% en l'espace de 4 mois (le faisant maintenant descendre à 1200€). <br><br>
+                                Même si l'on parle souvent d'inflation cela montrerait que Meta ait été un peu gourmande sur un produit qui ne lui revient pas si cher à produire. Cela lui permet également de rivaliser avec le nouveau PS VR 2.
+                            </p>
+                        </div>
+                        <!-- Lien -->
+                        <div class="col-12 text-center"> <a href="https://www.clubic.com/casque-vr/actualite-459624-aveu-d-echec-ou-de-gourmandise-la-tres-grosse-baisse-de-prix-du-casque-vr-meta-quest-pro.html" class="btn btn-primary" target="_blank">Voir l'article</a> </div> 
                     </div>
                     <!-- Image -->
-                    <div class="col-5 d-none d-md-block p-2 m-1 border">
-                        Mon Image <br><br><br><br><br><br><br>
+                    <div class="col-5 d-none d-md-block p-0 m-1 border">
+                    <img src="images/veille/oculus-pro.jpg" alt="" class="img-fluid">
                     </div>
                 </div>    
             </div>
 
-            <!-- ARTICLE 1 -->
+            <!-- ARTICLE 3 -->
             <div class="mt-5 mb-5">
                 <!-- Titre -->
-                <h3 class="text-center">Titre article 3</h3>
+                <h3 class="text-center">Pico 4</h3>
                 <!-- Sous titre -->
-                <h5 class="text-center"><i>Sous titre</i></h5>
+                <h5 class="text-center"><i>Un casque qui en met plein la vue</i></h5>
                 <div class="row m-0 justify-content-center">
                     <!-- Image -->
-                    <div class="col-5 d-none d-md-block p-2 m-1 border">
-                        Mon Image <br><br><br><br><br><br><br>
+                    <div class="col-5 d-none d-md-block p-0 m-1 border">
+                    <img src="images/veille/pico-4.jpeg" alt="" class="img-fluid">
                     </div>
                     <!-- TEXTE -->
                     <div class="col-10 col-md-5 p-2 m-1 border bg-secondary">
-                        Mon texte <br><br><br><br><br><br><br>
+                        <div class="col-12">
+                            <p class="mt-4">
+                                Pour se distinguer des grands groupes comme Sony et Meta, Pico se distingue en proposant un casque lancé à 429€. Il est autonome, sans fils et est assez flexibles dans son utilisation avec définition plus nette. <br> <br>
+                                Cependant, l'entreprise procède à une importante vague de licenciements justifié par un ralentissement économique du secteur.
+                            </p>
+                        </div>
+                        <!-- Lien -->
+                        <div class="col-12 text-center"> <a href="https://siecledigital.fr/2023/02/21/pico-vague-licenciements/" class="btn btn-primary" target="_blank">Voir l'article</a> </div> 
                     </div>
                 </div>    
             </div>
             
-            <!-- ARTICLE 1 -->
+            <!-- ARTICLE 4 -->
             <div class="mt-5 mb-5">
                 <!-- Titre -->
-                <h3 class="text-center">Titre article 4</h3>
+                <h3 class="text-center">Apple VR</h3>
                 <!-- Sous titre -->
-                <h5 class="text-center"><i>Sous titre</i></h5>
+                <h5 class="text-center"><i>Le casque d'Apple serait enfin dévoilé en Juin</i></h5>
                 <div class="row m-0 justify-content-center">
                     <!-- TEXTE -->
                     <div class="col-10 col-md-5 p-2 m-1 border bg-secondary">
-                        Mon texte <br><br><br><br><br><br><br>
+                        <div class="col-12">
+                            <p class="mt-4">
+                                Après son annonce en 2015, le casque d'Apple n'a cessé d'être repoussé à mainte reprise. Mais des sources anonymes ont annoncé qu'il serait finalement dévoilé lors de la Worldwide Conference Developpeur en juin. <br> <br>
+                                Sa sortie serait alors toujours prévu pour cette année au prix de 3000€, il comportera des écrans et des caméras pour un suivi précis sans manette.
+                            </p>
+                        </div>
+                        <!-- Lien -->
+                        <div class="col-12 text-center"> <a href="https://www.tomsguide.fr/le-casque-vr-dapple-pourrait-finalement-etre-devoile-en-juin-lors-de-la-wdc/" class="btn btn-primary" target="_blank">Voir l'article</a> </div> 
                     </div>
                     <!-- Image -->
-                    <div class="col-5 d-none d-md-block p-2 m-1 border">
-                        Mon Image <br><br><br><br><br><br><br>
+                    <div class="col-5 d-none d-md-block p-0 m-1 border">
+                    <img src="images/veille/apple-vr.webp" alt="" class="img-fluid">
                     </div>
                 </div>    
             </div>
 
-            <!-- ARTICLE 1 -->
+            <!-- ARTICLE 5 -->
             <div class="mt-5 mb-5">
                 <!-- Titre -->
-                <h3 class="text-center">Titre article 5</h3>
+                <h3 class="text-center">Skinetic</h3>
                 <!-- Sous titre -->
-                <h5 class="text-center"><i>Sous titre</i></h5>
+                <h5 class="text-center"><i>La veste haptique Actronika</i></h5>
                 <div class="row m-0 justify-content-center">
                     <!-- Image -->
-                    <div class="col-5 d-none d-md-block p-2 m-1 border">
-                        Mon Image <br><br><br><br><br><br><br>
+                    <div class="col-5 d-none d-md-block p-0 m-1 border">
+                    <img src="images/veille/skinetic.png" alt="" class="img-fluid">
                     </div>
                     <!-- TEXTE -->
                     <div class="col-10 col-md-5 p-2 m-1 border bg-secondary">
-                        Mon texte <br><br><br><br><br><br><br>
+                        <div class="col-12">
+                            <p class="mt-4">
+                                La start-up française Actronika travaille sur une veste haptique appelé Skinetic. Elle utilise des technologies brevetée qui permettent d'améliorer l'immersion des utilisateurs dans leurs expériences. <br> <br>
+                                Cela va permettre aux professionnels et aux particuliers de pratiquer ou de vivre des expériences dans un environnement controlé.  
+                            </p>
+                        </div>
+                        <!-- Lien -->
+                        <div class="col-12 text-center"> <a href="https://www.jaimelesstartups.fr/actronika-veste-haptique-realite-virtuelle/" class="btn btn-primary" target="_blank">Voir l'article</a> </div> 
                     </div>
                 </div>    
             </div>
+
+            <!-- ARTICLE 4 -->
+            <div class="mt-5 mb-5">
+                <!-- Titre -->
+                <h3 class="text-center">KAT walk C2</h3>
+                <!-- Sous titre -->
+                <h5 class="text-center"><i>Un tapis pour améliorer ses déplacements en vr</i></h5>
+                <div class="row m-0 justify-content-center">
+                    <!-- TEXTE -->
+                    <div class="col-10 col-md-5 p-2 m-1 border bg-secondary">
+                        <div class="col-12">
+                            <p class="mt-4">
+                                Après un Kickstarter qui a rassemblé plus de 2 Millions de dollars, Katvr s'est lancé dans la conception d'un tapis qui combiné avec des chaussures spéciales, permet de se déplacer en réalité virtuelle. <br> <br>
+                                Cela pourrait faciliter l'accessibilité à la vr qui peut parfois nous donner la nausé quand on se déplace.
+                            </p>
+                        </div>
+                        <!-- Lien -->
+                        <div class="col-12 text-center"> <a href="https://casques-vr.com/kat-walk-c2-nouvelle-version-pour-le-tapis-vr-avec-un-prix-divise-par-deux-20919/" class="btn btn-primary" target="_blank">Voir l'article</a> </div> 
+                    </div>
+                    <!-- Image -->
+                    <div class="col-5 d-none d-md-block p-0 m-1 border">
+                    <img src="images/veille/katwalkc.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>    
+            </div>
+
         </div>
-
-        <!-- CAROUSEL -->
-        <!-- <div class="row m-md-5 m-0 justify-content-center border-5 mb-2">
-            <div class="col-md-5 col-10">
-                <div id="carousel" class="carousel carousel-dark slide border rounded" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-
-                    <div class="carousel-inner">
-
-                        <div class="carousel-item active" data-bs-interval="5000">
-                            <img src="images/articles/meta-quest-pro.webp" class="d-block w-100" alt="article1">
-                            <div class="carousel-caption d-none d-md-block text-white" style="background-color: rgba(44, 44, 44, 0.5);">
-                                <h5>Nouveauté - Meta Quest Pro</h5>
-                                <p>Le casque VR premium de Meta a beaucoup à offrir.</p>
-                                <a class="btn btn-light" href="https://www.blog-nouvelles-technologies.fr/244460/le-meta-quest-pro-est-disponible-des-aujourdhui-les-premiers-tests-aussi/" target="_blank">En savoir plus</a>
-                            </div>
-                        </div>
-                       
-                        <div class="carousel-item" data-bs-interval="5000">
-                            <img src="images/articles/Pico-4.jpg" class="d-block w-100" alt="article2">
-                            <div class="carousel-caption d-none d-md-block text-white" style="background-color: rgba(44, 44, 44, 0.5);">
-                                <h5>Annonce du casque VR Pico 4 Entreprise</h5>
-                                <p>L'appareil axé sur les affaires comprend un suivi des yeux et du visage ainsi qu'une technologie de transmission des couleurs.</p>
-                                <a class="btn btn-light" href="https://www.realite-virtuelle.com/pico-4-enterprise/" target="_blank">En savoir plus</a>
-                            </div>
-                        </div>
-                   
-                        <div class="carousel-item" data-bs-interval="5000">
-                            <img src="images/articles/HaptXG1.png" class="d-block w-100" alt="article3">
-                            <div class="carousel-caption d-none d-md-block text-white" style="background-color: rgba(44, 44, 44, 0.5);">
-                                <h5>Les gants HaptX G1 sont désormais disponibles en pré-commande</h5>
-                                <p>Le SDK HaptX permet à tout développeur d'apporter facilement un sens réaliste du toucher à ses jeux et applications VR.</p>
-                                <a class="btn btn-light" href="https://vrscout.com/news/haptx-gloves-g1-now-available-for-pre-order/" target="_blank">En savoir plus</a>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev text-white" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-                    </button>
-                </div>
-            </div>
-        </div> -->
-        
 </section>
 </body>
 

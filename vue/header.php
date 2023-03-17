@@ -29,10 +29,9 @@
     </head>
 
     <!-- PAGE -->
-    <body class="h-100">
-
+    <body>
             <!-- NAVBAR -->
-            <section class="bg-dark" style="height:10vh; ">
+            <section class="bg-dark sticky-top" style="height:10vh;">
                 <div class="row m-0 h-100 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.2);">
                     
                 <nav class="navbar navbar-dark">
@@ -58,8 +57,8 @@
                                 <li><a class="dropdown-item" href="files/CV_Marmier_Tanguy.pdf" target="_blank">Curriculum vitae</a></li>
                             </ul>
                         </li>
-                        <!-- <a class="nav-link d-none d-md-block p-2" href="services.php">Services</a> -->
                         <a class="nav-link d-none d-md-block p-2" href="veille_technologique.php">Veille technologique</a>
+                        <a class="nav-link d-none d-md-block p-2" href="services.php">Services</a>
                         <a class="nav-link d-none d-md-block p-2" href="contact.php">Contact</a>   
                         </div>
 
@@ -107,7 +106,7 @@
                                     </div>
                                     
                                     <div class="row m-0 mt-3">
-                                        <!-- <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="services.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-braces fs-3"></i><br>Services</a></div> -->
+                                        <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="services.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-braces fs-3"></i><br>Services</a></div>
                                         <div class="col-6 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="veille_technologique.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-headset-vr fs-3"></i><br>Veille</a></div>
                                     </div>
                                     

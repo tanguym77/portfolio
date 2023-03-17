@@ -38,7 +38,7 @@
                     </div>
                     <img src="images/certifications/logo_javascript.png" class="card-img-top">
                     <div class="card-body">
-                        <p class="card-text">Une formation CISCO qui m'a permis d'apprendre les basics de javascript pour créer des algorithmes simple.</p>
+                        <p class="card-text">Une formation CISCO qui m'a permis d'apprendre les basics de javascript pour créer des algorithmes simple. <br><br></p>
                     </div>
                     <div class="card-footer">
                         <div class="dropdown text-center">

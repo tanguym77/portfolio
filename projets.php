@@ -18,10 +18,11 @@
                     <div class="card-header">
                         <h5 class="card-title">Serious Game (projet de 1ère année)</h5>
                     </div>
-                    <img src="images/projets/AF.png" class="card-img-top">
+                    <img src="images/projets/AF2.png" class="card-img-top border-bottom">
                     <div class="card-body">
                         <p class="card-text"><u>But</u> : Création d'entreprise L'Atelier Français <br> <u>Langages</u> : HTML, CSS, PHP, SQL <br> <u>Équipe</u> : 12 personnes</p>
-                        <p class="card-text">L'objectif fut de monter un site marchand et d'établir son business plan. J'ai eu la chance d'avoir été élu PDG et a mené l'entreprise à être élue meilleure entreprise du projet.</p>
+                        <p class="card-text">L'objectif fut de monter un site marchand et d'établir son business plan.</p>
+                        <!-- J'ai eu la chance d'avoir été élu PDG et a mené l'entreprise à être élue meilleure entreprise du projet. -->
                     </div>
                     <div class="card-footer">
                         <div class="dropdown text-center">
