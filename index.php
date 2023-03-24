@@ -90,7 +90,7 @@
                             </ul>
                         </li>
                         <a class="nav-link d-none d-md-block p-2" href="veille_technologique.php">Veille technologique</a>
-                        <a class="nav-link d-none d-md-block p-2" href="services.php">Services</a>
+                        <!-- <a class="nav-link d-none d-md-block p-2" href="services.php">Services</a> -->
                         <a class="nav-link d-none d-md-block p-2" href="contact.php">Contact</a>   
                         </div>
 
@@ -196,7 +196,7 @@
                         <a class="text-white text-decoration-none upDown">O</a>
                     </div>
                     <div class="my-auto col-5 d-none d-md-block text-center">
-                        <img class="upDown rounded-5 p-2 border" style="height: 160px; width: 150px" src="" alt="photo de profil">
+                        <img class="upDown rounded-5 p-2 border" style="height: 184px; width: 252px" src="" alt="Photo">
                     </div>
                 </div>
             </section>

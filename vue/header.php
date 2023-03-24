@@ -58,7 +58,7 @@
                             </ul>
                         </li>
                         <a class="nav-link d-none d-md-block p-2" href="veille_technologique.php">Veille technologique</a>
-                        <a class="nav-link d-none d-md-block p-2" href="services.php">Services</a>
+                        <!-- <a class="nav-link d-none d-md-block p-2" href="services.php">Services</a> -->
                         <a class="nav-link d-none d-md-block p-2" href="contact.php">Contact</a>   
                         </div>
 
