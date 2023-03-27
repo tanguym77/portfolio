@@ -21,8 +21,7 @@
                     <img src="images/projets/AF2.png" class="card-img-top border-bottom">
                     <div class="card-body">
                         <p class="card-text"><u>But</u> : Création d'entreprise L'Atelier Français <br> <u>Langages</u> : HTML, CSS, PHP, SQL <br> <u>Équipe</u> : 12 personnes</p>
-                        <p class="card-text">L'objectif fut de monter un site marchand et d'établir son business plan.</p>
-                        <!-- J'ai eu la chance d'avoir été élu PDG et a mené l'entreprise à être élue meilleure entreprise du projet. -->
+                        <p class="card-text">Avec une équipe de 12 personnes, créer un site marchand en 2 semaines ainsi que son business plan.<br><br><br></p>
                     </div>
                     <div class="card-footer">
                         <div class="dropdown text-center">
@@ -52,7 +51,7 @@
                             <button class="btn btn-primary dropdown-toggle" type="button" id="Article1" data-bs-toggle="dropdown" aria-expanded="false">En savoir plus</button>
                             <ul class="dropdown-menu" aria-labelledby="Article1">
                                 <li><a class="dropdown-item" href="https://github.com/Le-trio-malefique/Projet_note_de_frais" target="_blank">Le projet sur Github</a></li>
-                                <li><a class="dropdown-item disabled" target="_blank">Le site (non disponible)</a></li>
+                                <li><a class="dropdown-item" href="https://notedefrais.store/" target="_blank">Le site</a></li>
                             </ul>
                         </div>
                     </div>
@@ -68,13 +67,13 @@
                     <img src="images/projets/csharp.png" class="card-img-top">
                     <div class="card-body">
                         <p class="card-text"><u>But</u> : Création d'entreprise L'Atelier Français <br> <u>Langages</u> : C#, SQL <br> <u>Équipe</u> : 1 personne</p>
-                        <p class="card-text">La tâche à été le développement d'une application qui permet d'importer un CSV pour le comparer à une base de données pour la mettre à jour.</p>
+                        <p class="card-text">La tâche à été le développement d'une application qui permet d'importer un CSV pour le comparer à une base de données pour ajouter, modifier ou supprimer des données.</p>
                     </div>
                     <div class="card-footer">
                         <div class="dropdown text-center">
                             <button class="btn btn-primary dropdown-toggle" type="button" id="Article1" data-bs-toggle="dropdown" aria-expanded="false">En savoir plus</button>
                             <ul class="dropdown-menu" aria-labelledby="Article1">
-                                <li><a class="dropdown-item disabled" href="https://github.com/Le-trio-malefique/Projet_note_de_frais" target="_blank">Le projet sur Github (non disponible)</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/tanguym77/Projet-Application-Csharp" target="_blank">Le projet sur Github</a></li>
                             </ul>
                         </div>
                     </div>

@@ -1,15 +1,20 @@
 .upDown {
     animation: MoveUpDown 5s ease-in-out infinite;
-  }
+}
   
-  @keyframes MoveUpDown {
-    50%{
-      transform: translateY(40px);
-    }
-    100% {
-      transform: translateY(0px);
-    }
+.upDown2 {
+  animation: MoveUpDown 6s ease-in-out infinite;
+  animation-delay: -5s;
+}
+
+@keyframes MoveUpDown {
+  50%{
+    transform: translateY(50px);
   }
+  100% {
+    transform: translateY(0px);
+  }
+}
 
   /* WRITE */
 
@@ -28,10 +33,4 @@
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  40% { border-color: orange; }
 }

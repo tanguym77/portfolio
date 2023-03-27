@@ -4,6 +4,9 @@
 
         <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
 
+        <!-- DESCRIPTION -->
+        <meta name="description" content="Portfolio - Marmier Tanguy / Etudiant - Auto entrepreneur">
+
              <!-- Title -->
             <title>Portfolio - Marmier Tanguy</title>
             <!-- ICON -->
@@ -167,36 +170,38 @@
             <section class="text-white" style="height:90vh; position: relative; z-index: 1;">
                 <div class="h-100 row text-white m-0 d-flex justify-content-around">
                     <div class="col-10 col-md-4 my-auto text-center upDown">
-                        <a class="text-white text-decoration-none upDown">B</a>
-                        <a class="text-white text-decoration-none upDown">I</a>
-                        <a class="text-white text-decoration-none upDown">E</a>
-                        <a class="text-white text-decoration-none upDown">N</a>
-                        <a class="text-white text-decoration-none upDown">V</a>
-                        <a class="text-white text-decoration-none upDown">E</a>
-                        <a class="text-white text-decoration-none upDown">N</a>
-                        <a class="text-white text-decoration-none upDown">U</a>
-                        <a class="text-white text-decoration-none upDown">E</a>
-                        <br>
-                        <a class="text-white text-decoration-none upDown">S</a>
-                        <a class="text-white text-decoration-none upDown">U</a>
-                        <a class="text-white text-decoration-none upDown">R</a>
+                        <a class="text-white text-decoration-none upDown fs-2">B</a>
+                        <a class="text-white text-decoration-none upDown fs-3">I</a>
+                        <a class="text-white text-decoration-none upDown fs-3">E</a>
+                        <a class="text-white text-decoration-none upDown fs-3">N</a>
+                        <a class="text-white text-decoration-none upDown fs-3">V</a>
+                        <a class="text-white text-decoration-none upDown fs-3">E</a>
+                        <a class="text-white text-decoration-none upDown fs-3">N</a>
+                        <a class="text-white text-decoration-none upDown fs-3">U</a>
+                        <a class="text-white text-decoration-none upDown fs-3">E</a>
+                        <br><br>
+                        <a class="text-white text-decoration-none upDown fs-3">S</a>
+                        <a class="text-white text-decoration-none upDown fs-3">U</a>
+                        <a class="text-white text-decoration-none upDown fs-3">R</a>
                         &nbsp
-                        <a class="text-white text-decoration-none upDown">M</a>
-                        <a class="text-white text-decoration-none upDown">O</a>
-                        <a class="text-white text-decoration-none upDown">N</a>
-                        <br>
-                        <a class="text-white text-decoration-none upDown">P</a>
-                        <a class="text-white text-decoration-none upDown">O</a>
-                        <a class="text-white text-decoration-none upDown">R</a>
-                        <a class="text-white text-decoration-none upDown">T</a>
-                        <a class="text-white text-decoration-none upDown">F</a>
-                        <a class="text-white text-decoration-none upDown">O</a>
-                        <a class="text-white text-decoration-none upDown">L</a>
-                        <a class="text-white text-decoration-none upDown">I</a>
-                        <a class="text-white text-decoration-none upDown">O</a>
+                        <a class="text-white text-decoration-none upDown fs-3">M</a>
+                        <a class="text-white text-decoration-none upDown fs-3">O</a>
+                        <a class="text-white text-decoration-none upDown fs-3">N</a>
+                        <br><br>
+                        <a class="text-white text-decoration-none upDown fs-3">P</a>
+                        <a class="text-white text-decoration-none upDown fs-3">O</a>
+                        <a class="text-white text-decoration-none upDown fs-3">R</a>
+                        <a class="text-white text-decoration-none upDown fs-3">T</a>
+                        <a class="text-white text-decoration-none upDown fs-3">F</a>
+                        <a class="text-white text-decoration-none upDown fs-3">O</a>
+                        <a class="text-white text-decoration-none upDown fs-3">L</a>
+                        <a class="text-white text-decoration-none upDown fs-3">I</a>
+                        <a class="text-white text-decoration-none upDown fs-3">O</a>
                     </div>
+                    <!-- PHOTO / RECHERCHE ALTERNANCE -->
                     <div class="my-auto col-5 d-none d-md-block text-center">
-                        <img class="upDown rounded-5 p-2 border" style="height: 184px; width: 252px" src="" alt="Photo">
+                        <p class="upDown2 border-top border-bottom p-2">Recherche une entreprise pour faire une alternance en tant que développeur web à partir de Septembre 2023</p>
+                        <!-- <img class="upDown rounded-5 p-2 border" style="height: 184px; width: 252px" src="" alt="Photo"> -->
                     </div>
                 </div>
             </section>
