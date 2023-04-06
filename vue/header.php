@@ -4,10 +4,14 @@
 
         <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
 
-             <!-- Title -->
-            <title>Portfolio - Marmier Tanguy</title>
-            <!-- ICON -->
-            <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+        <!-- DESCRIPTION SEO-->
+        <meta name="description" content="Portfolio - Marmier Tanguy / Etudiant - Auto entrepreneur">
+
+        <!-- Title -->
+        <title>Portfolio - Marmier Tanguy</title>
+
+        <!-- ICON -->
+        <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
         
         <!-- CSS PERSO -->
         <link rel="stylesheet" href="css/style.css">

@@ -4,7 +4,7 @@
 
         <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
 
-        <!-- DESCRIPTION -->
+        <!-- DESCRIPTION SEO-->
         <meta name="description" content="Portfolio - Marmier Tanguy / Etudiant - Auto entrepreneur">
 
              <!-- Title -->
