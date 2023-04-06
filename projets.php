@@ -66,7 +66,7 @@
                     </div>
                     <img src="images/projets/csharp.png" class="card-img-top">
                     <div class="card-body">
-                        <p class="card-text"><u>But</u> : Création d'entreprise L'Atelier Français <br> <u>Langages</u> : C#, SQL <br> <u>Équipe</u> : 1 personne</p>
+                        <p class="card-text"><u>But</u> : Création d'une application en C# <br> <u>Langages</u> : C#, SQL <br> <u>Équipe</u> : 1 personne</p>
                         <p class="card-text">La tâche à été le développement d'une application qui permet d'importer un CSV pour le comparer à une base de données pour ajouter, modifier ou supprimer des données.</p>
                     </div>
                     <div class="card-footer">
