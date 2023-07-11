@@ -1,10 +1,16 @@
 <?php
+    // vérif
+    if($_POST['spam']!=$_POST['verif']){
+        $send = False;
+    }else{
+        $send = True;
+    }
+
     $destinataire = 'marmier-tanguy@alwaysdata.net';
 
-    // Pour les champs $expediteur / $copie / $destinataire, séparer par une virgule s'il y a plusieurs adresses
-    $expediteur = $_POST['email'];
+    $expediteur = $_POST['email']; // Email de l'emetteur
 
-    $objet = "Portfolio";
+    $objet = "Portfolio - Nouveau message"; // Objet
 
     $headers  = 'MIME-Version: 1.0' . "\n"; // Version MIME
     $headers .= 'Content-type: text/html; charset=ISO-8859-1'."\n"; // l'en-tete Content-type pour le format HTML
@@ -12,17 +18,19 @@
     $headers .= 'From:<'.$expediteur.'>'."\n"; // Expediteur
 
     $message =  '<div style="width: 100%; text-align: center; font-weight: bold">'.
-    '<br>'.'Nom : '.$_POST['name'].'<br>'.
+    '<br>'.'Nom : '.$_POST['nom'].'<br>'.
+    '<br>'.'Prénom : '.$_POST['prenom'].'<br>'.
     '<br>'.'Message : '.$_POST['message'].'<br>'.
     '<br>'.'Téléphone : '.$_POST['phone'].'</div>';
 
-    if(mail($destinataire, $objet, $message, $headers))
-    {
-        header('Location: contact.php?success=1');
-    }
-    else // Non envoyé
-    {
-        echo '<script type="javascript">alert("Votre message n\'a pas pu être envoyé");</script>';
+    if($send == True){
+        if(mail($destinataire, $objet, $message, $headers)){
+            header('Location: contact.php?success=1'); // Verif et envoi OK
+        }else{
+            header('Location: contact.php?success=0'); // Verif OK envoi NOK
+        }
+    }else{
+        header('Location: contact.php?success=0'); // Verif NOK
     }
 
 ?>

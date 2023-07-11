@@ -3,7 +3,7 @@
 ?>
 
 <section>
-    <div class="container-fluid p-5" style="background: url(images/background.webp); background-size: cover;">
+    <div class="container-fluid p-md-5 p-2" style="background: url(images/background.webp); background-size: cover;">
     <div class="row justify-content-center">
         <div class="col-xl-6">
         <div class="card border-0 rounded-3 shadow-lg overflow-hidden bg-dark text-dark">
@@ -14,35 +14,63 @@
                     <p class="mb-4 text-muted">Merci de remplir correctement les champs</p>
                 </div>
 
-                <form method="post" action="mail.php" >
-
-                    <!-- NOM -->
-                    <div class="form-floating mb-3">
-                        <input name="name" class="form-control" id="name" type="text" placeholder="Name" required />
-                        <label for="name">Nom Prénom</label>
+                <form id="Form" method="post" action="mail.php" >
+                    
+                    <div class="row">
+                        <div class="col-6">
+                            <!-- PRENOM -->
+                            <div class="form-floating mb-3">
+                                <input name="prenom" class="form-control" id="prenom" type="text" placeholder=" " required />
+                                <label for="prenom">Prénom</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <!-- NOM -->
+                            <div class="form-floating mb-3">
+                                <input name="nom" class="form-control" id="nom" type="text" placeholder=" " required />
+                                <label for="nom">Nom</label>
+                            </div>
+                        </div>
                     </div>
-
+                    
                     <!-- EMAIL -->
                     <div class="form-floating mb-3">
-                    <input name="email" class="form-control" id="emailAddress" type="email" placeholder="Email Address" required />
-                    <label for="emailAddress">Adresse Email</label>
+                        <input name="email" class="form-control" id="email" type="email" placeholder=" " required />
+                        <label for="email">Adresse Email</label>
                     </div>
 
                     <!-- Téléphone -->
                     <div class="form-floating mb-3">
-                    <input name="phone" class="form-control" id="phone" type="tel" placeholder="Téléphone" />
-                    <label for="phone">Téléphone <i>(facultatif)</i></label>
+                        <input name="phone" class="form-control" id="phone" type="tel" placeholder=" " />
+                        <label for="phone">Téléphone <i>(facultatif)</i></label>
                     </div>
 
                     <!-- MESSAGE -->
                     <div class="form-floating mb-3">
-                    <textarea name="message" class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
-                    <label for="message">Message</label>
+                        <textarea name="message" class="form-control" id="message" type="text" placeholder=" " style="height: 10rem;" required></textarea>
+                        <label for="message">Message</label>
                     </div>
+
+                    <!-- Anti spam -->
+                    <?php
+                        $nb_a = random_int(1,3);
+                        $nb_b = random_int(1,3);
+                        $verif = $nb_a + $nb_b;
+                    ?>
+                    <input type="hidden" name="spam" value="<?php echo($verif)?>">
+                    <div class="row mt-3 mb-2">
+                        <div class="col-5">
+                            <p class="text-white text-center">Vérification : <?php echo($nb_a." + ".$nb_b." = ?") ?></p>
+                        </div>
+                        <div class="col-5">
+                            <input type="number" name="verif" id="" placeholder="  Résultat" class="rounded" required>
+                        </div>
+                    </div>
+                    
 
                     <!-- MESSAGE ENVOYE -->
                     <?php
-                        if(isset($_GET['success'])){
+                        if(isset($_GET['success']) && $_GET['success']==1){
                             echo "
                             <div>
                                 <div class='text-center mb-3'>
@@ -51,16 +79,24 @@
                             </div>
                             ";
                         }
+                        if (isset($_GET['success']) && $_GET['success']==0) {
+                            echo "
+                            <div>
+                                <div class='text-center mb-3'>
+                                    <div class='fw-bolder bg-danger rounded p-1 text-white'>Zut ! Le message n'a pas été envoyé.</div>
+                                </div>
+                            </div>
+                            ";
+                        }
                     ?>
 
                     <!-- Submit button -->
                     <div class="d-grid">
-                        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                        <button name="submit" class="g-recaptcha btn btn-primary btn-lg" data-sitekey="6LfSAvklAAAAABmCMT3LIBfO-0PbCVr-TMHtUgHu" data-size="invisible" data-callback='onSubmit' data-action='submit' type="submit">Envoyer</button>
                     </div>
 
-                    <br><br><br><br>
+                    
                 </form>
-                <!-- End of contact form -->
 
                 </div>
 
