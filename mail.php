@@ -1,6 +1,6 @@
 <?php
     // vérif
-    if($_POST['spam']!=$_POST['verif']){
+    if($_POST['text']!=""){
         $send = False;
     }else{
         $send = True;

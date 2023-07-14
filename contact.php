@@ -51,22 +51,9 @@
                         <label for="message">Message</label>
                     </div>
 
-                    <!-- Anti spam -->
-                    <?php
-                        $nb_a = random_int(1,3);
-                        $nb_b = random_int(1,3);
-                        $verif = $nb_a + $nb_b;
-                    ?>
-                    <input type="hidden" name="spam" value="<?php echo($verif)?>">
-                    <div class="row mt-3 mb-2">
-                        <div class="col-5">
-                            <p class="text-white text-center">Vérification : <?php echo($nb_a." + ".$nb_b." = ?") ?></p>
-                        </div>
-                        <div class="col-5">
-                            <input type="number" name="verif" id="" placeholder="  Résultat" class="rounded" required>
-                        </div>
-                    </div>
-                    
+                    <!-- Hidden -->
+                    <input type="text" class="d-none" id="text" placeholder=" " name="text">
+                    <label for="text"></label>
 
                     <!-- MESSAGE ENVOYE -->
                     <?php
