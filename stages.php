@@ -24,9 +24,9 @@
                 <li>Accompagnement des équipes</li>
                 <li>Audit de site</li>
                 <br>
-                <!--
+                
                 <p><a class="text-white btn btn-primary" href="files/Rapport_de_stage_MARMIER_Tanguy_WANDS.pdf" target="_blank">Rapport de stage</a></p>
-                -->
+               
             </div>
         </div>
 
@@ -43,9 +43,9 @@
                 <li>Export PDF des profils</li>
                 <li>Filtres et pagination</li></p>
                 <br>
-                <!--
+                
                 <p><a class="text-white btn btn-primary" href="files/Rapport_de_stage_MARMIER_Tanguy_STAR_CASTING.pdf" target="_blank">Rapport de stage</a></p>
-                -->
+               
             </div>
         </div>        
     </div>
