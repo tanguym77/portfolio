@@ -6,7 +6,7 @@
     <div>
         <!-- TITLE -->
         <div class="row w-100 mx-auto text-white text-center pt-5">
-            <h1>Mes Compétences</h1>
+            <h1>Mes Certifications</h1>
         </div>
 
         <!-- CARDS -->

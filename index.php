@@ -33,6 +33,17 @@
 
     </head>
 
+    <!-- GOOGLE ANALITIC -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DWL3MY5G5E"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-DWL3MY5G5E');
+    </script>
+
     <!-- PAGE -->
     <body class="h-100">
 
@@ -140,7 +151,7 @@
                                     </div>
                                     
                                     <div class="row m-0 mt-3">
-                                        <div class="col-12 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="veille_technologique.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-headset-vr fs-3"></i><br>Veille</a></div>
+                                        <!-- <div class="col-12 text-center"><a class="btn btn-outline-primary pt-3 text-white" href="veille_technologique.php" style="width: 105.6px;height: 93.6px;"><i class="bi bi-headset-vr fs-3"></i><br>Veille</a></div> -->
                                     </div>
                                     
                                     <div class="row m-0 mt-3">
@@ -199,7 +210,6 @@
                     <!-- PHOTO / RECHERCHE ALTERNANCE -->
                     <div class="my-auto col-5 d-none d-md-block text-center">
                         <p class="upDown2 border-top border-bottom p-2">Recherche une entreprise pour faire une alternance en tant que développeur web à partir de Septembre 2023</p>
-                        <!-- <img class="upDown rounded-5 p-2 border" style="height: 184px; width: 252px" src="" alt="Photo"> -->
                     </div>
                 </div>
             </section>

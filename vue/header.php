@@ -32,6 +32,17 @@
 
     </head>
 
+    <!-- Google analitic -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DWL3MY5G5E"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-DWL3MY5G5E');
+    </script>
+
     <!-- PAGE -->
     <body>
             <!-- NAVBAR -->
@@ -61,7 +72,7 @@
                                 <li><a class="dropdown-item" href="files/CV_Marmier_Tanguy.pdf" target="_blank">Curriculum vitae</a></li>
                             </ul>
                         </li>
-                        <a class="nav-link d-none d-md-block p-2" href="veille_technologique.php">Veille technologique</a>
+                        <!-- <a class="nav-link d-none d-md-block p-2" href="veille_technologique.php">Veille technologique</a> -->
                         <a class="nav-link d-none d-md-block p-2" href="contact.php">Contact</a>   
                         </div>
 
